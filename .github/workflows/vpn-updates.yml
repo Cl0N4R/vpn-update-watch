@@ -52,8 +52,13 @@ jobs:
               "MahsaNG": "GFW-knocker/MahsaNG",
           }
 
-          # Known installed version. Other apps will be baselined on the first run.
+          # Confirmed installed versions from the user's device/app history.
+          # Apps without a confirmed installed version are safely baselined on first run.
           INSTALLED_VERSIONS = {
+              "bia-pain-bache/BPB-VPN": "1.2.1",
+              "patterniha/PattNG": "2.3.12-P66",
+              "mlmvpn/mlmvpn_android": "1.2.46",
+              "ExclaveNetwork/Exclave": "0.17.56",
               "umutxyp/Shroudly": "2.6.75",
           }
 
