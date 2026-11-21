@@ -2,7 +2,7 @@ name: Daily VPN release watch
 
 on:
   schedule:
-    - cron: "15 5 * * *" # 08:45 Asia/Tehran
+    - cron: "30 9 * * *" # 13:00 Asia/Tehran
   workflow_dispatch:
 
 permissions:
