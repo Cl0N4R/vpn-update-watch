@@ -36,6 +36,7 @@ def arm64_assets(assets):
     return out
 
 results=[]
+first_run = not seen
 for app in CONFIG["apps"]:
     url=f"https://api.github.com/repos/{app['repo']}/releases?per_page=20"
     releases, error=get_json(url)
