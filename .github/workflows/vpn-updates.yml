@@ -60,6 +60,9 @@ jobs:
               "mlmvpn/mlmvpn_android": "1.2.46",
               "ExclaveNetwork/Exclave": "0.17.56",
               "umutxyp/Shroudly": "2.6.75",
+              "KaringX/karing": "1.2.26.2934",
+              "ArasTey/ArasClient": "1.8.97",
+              "GFW-knocker/MahsaNG": "18",
           }
 
           def normalize_tag(value):
