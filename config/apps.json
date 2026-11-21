@@ -1,0 +1,49 @@
+{
+  "device": {
+    "android_version": 13,
+    "architecture": "arm64-v8a",
+    "model": "Samsung Galaxy A12 (SM-A127F)"
+  },
+  "apps": [
+    {
+      "name": "BPB VPN",
+      "repo": "bia-pain-bache/BPB-VPN",
+      "installed_version": "1.2.1"
+    },
+    {
+      "name": "PattNG",
+      "repo": "patterniha/PattNG",
+      "installed_version": "2.3.12-P66"
+    },
+    {
+      "name": "Karing",
+      "repo": "KaringX/karing",
+      "installed_version": "1.2.21 (2407)"
+    },
+    {
+      "name": "MLM VPN",
+      "repo": "mlmvpn/mlmvpn_android",
+      "installed_version": "1.2.46"
+    },
+    {
+      "name": "Exclave",
+      "repo": "ExclaveNetwork/Exclave",
+      "installed_version": "0.17.56"
+    },
+    {
+      "name": "ArasClient",
+      "repo": "ArasTey/ArasClient",
+      "installed_version": ""
+    },
+    {
+      "name": "Shroudly",
+      "repo": "umutxyp/Shroudly",
+      "installed_version": "2.6.75"
+    },
+    {
+      "name": "MahsaNG",
+      "repo": "GFW-knocker/MahsaNG",
+      "installed_version": "v18"
+    }
+  ]
+}
