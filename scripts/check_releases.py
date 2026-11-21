@@ -41,15 +41,32 @@ for app in CONFIG["apps"]:
     releases, error=get_json(url)
     item={"name":app["name"],"repo":app["repo"],"installed_version":app.get("installed_version",""),"error":error,"releases":[]}
     if releases is not None:
-        for r in releases:
-            if r.get("draft"): continue
+        valid=[r for r in releases if not r.get("draft")]
+        new_for_app=[]
+        baseline=app.get("installed_version","").strip().lower().replace("v","",1)
+        baseline_index=None
+        for idx,r in enumerate(valid):
             tag=r.get("tag_name","")
+            if tag.lower().replace("v","",1)==baseline or (baseline and baseline in (r.get("name") or "").lower()):
+                baseline_index=idx
             key=app["repo"]+"@"+tag
             rel={"tag":tag,"title":r.get("name") or tag,"published_at":r.get("published_at"),"prerelease":bool(r.get("prerelease")),"url":r.get("html_url"),"notes":r.get("body") or "(توضیحی در متن Release ثبت نشده است)","arm64_apks":arm64_assets(r.get("assets",[])),"assets":[{"name":a.get("name"),"url":a.get("browser_download_url"),"size":a.get("size")} for a in r.get("assets",[])]}
             item["releases"].append(rel)
             if key not in seen:
-                pending[key]={"app":app["name"],"repo":app["repo"],"tag":tag,"url":rel["url"],"first_seen":datetime.now(timezone.utc).isoformat(),"prerelease":rel["prerelease"]}
+                new_for_app.append((key,rel))
             seen[key]=rel.get("published_at")
+        # On the first run, compare against the user's recorded version so old
+        # historical releases are not all incorrectly flagged as new.
+        if new_for_app:
+            if first_run:
+                if baseline_index is not None:
+                    candidates=[x for x in new_for_app if next((i for i,r in enumerate(valid) if r.get("tag_name")==x[1]["tag"]),999)<baseline_index]
+                else:
+                    candidates=new_for_app[:1]
+            else:
+                candidates=new_for_app
+            for key,rel in candidates:
+                pending[key]={"app":app["name"],"repo":app["repo"],"tag":rel["tag"],"url":rel["url"],"first_seen":datetime.now(timezone.utc).isoformat(),"prerelease":rel["prerelease"]}
     results.append(item)
 
 now=datetime.now(timezone.utc).isoformat()
