@@ -1,1 +1,410 @@
-{}
+{
+  "bia-pain-bache/BPB-VPN@v1.3.0": {
+    "app": "BPB VPN",
+    "repo": "bia-pain-bache/BPB-VPN",
+    "tag": "v1.3.0",
+    "url": "https://github.com/bia-pain-bache/BPB-VPN/releases/tag/v1.3.0",
+    "first_seen": "2026-11-22T17:18:27.855802+00:00",
+    "prerelease": false
+  },
+  "bia-pain-bache/BPB-VPN@v1.2.2": {
+    "app": "BPB VPN",
+    "repo": "bia-pain-bache/BPB-VPN",
+    "tag": "v1.2.2",
+    "url": "https://github.com/bia-pain-bache/BPB-VPN/releases/tag/v1.2.2",
+    "first_seen": "2026-11-22T17:18:27.855820+00:00",
+    "prerelease": true
+  },
+  "patterniha/PattNG@2.4.0-P73": {
+    "app": "PattNG",
+    "repo": "patterniha/PattNG",
+    "tag": "2.4.0-P73",
+    "url": "https://github.com/patterniha/PattNG/releases/tag/2.4.0-P73",
+    "first_seen": "2026-11-22T17:18:28.471609+00:00",
+    "prerelease": false
+  },
+  "patterniha/PattNG@2.4.0-P72": {
+    "app": "PattNG",
+    "repo": "patterniha/PattNG",
+    "tag": "2.4.0-P72",
+    "url": "https://github.com/patterniha/PattNG/releases/tag/2.4.0-P72",
+    "first_seen": "2026-11-22T17:18:28.471624+00:00",
+    "prerelease": false
+  },
+  "patterniha/PattNG@2.3.15-P71": {
+    "app": "PattNG",
+    "repo": "patterniha/PattNG",
+    "tag": "2.3.15-P71",
+    "url": "https://github.com/patterniha/PattNG/releases/tag/2.3.15-P71",
+    "first_seen": "2026-11-22T17:18:28.471626+00:00",
+    "prerelease": false
+  },
+  "patterniha/PattNG@2.3.13-P70": {
+    "app": "PattNG",
+    "repo": "patterniha/PattNG",
+    "tag": "2.3.13-P70",
+    "url": "https://github.com/patterniha/PattNG/releases/tag/2.3.13-P70",
+    "first_seen": "2026-11-22T17:18:28.471628+00:00",
+    "prerelease": false
+  },
+  "patterniha/PattNG@2.3.13-P69": {
+    "app": "PattNG",
+    "repo": "patterniha/PattNG",
+    "tag": "2.3.13-P69",
+    "url": "https://github.com/patterniha/PattNG/releases/tag/2.3.13-P69",
+    "first_seen": "2026-11-22T17:18:28.471630+00:00",
+    "prerelease": false
+  },
+  "patterniha/PattNG@2.3.13-P68": {
+    "app": "PattNG",
+    "repo": "patterniha/PattNG",
+    "tag": "2.3.13-P68",
+    "url": "https://github.com/patterniha/PattNG/releases/tag/2.3.13-P68",
+    "first_seen": "2026-11-22T17:18:28.471631+00:00",
+    "prerelease": false
+  },
+  "patterniha/PattNG@2.3.12-P67": {
+    "app": "PattNG",
+    "repo": "patterniha/PattNG",
+    "tag": "2.3.12-P67",
+    "url": "https://github.com/patterniha/PattNG/releases/tag/2.3.12-P67",
+    "first_seen": "2026-11-22T17:18:28.471633+00:00",
+    "prerelease": false
+  },
+  "KaringX/karing@v1.2.26.2934": {
+    "app": "Karing",
+    "repo": "KaringX/karing",
+    "tag": "v1.2.26.2934",
+    "url": "https://github.com/KaringX/karing/releases/tag/v1.2.26.2934",
+    "first_seen": "2026-11-22T17:18:28.823944+00:00",
+    "prerelease": false
+  },
+  "mlmvpn/mlmvpn_android@v1.2.49": {
+    "app": "MLM VPN",
+    "repo": "mlmvpn/mlmvpn_android",
+    "tag": "v1.2.49",
+    "url": "https://github.com/mlmvpn/mlmvpn_android/releases/tag/v1.2.49",
+    "first_seen": "2026-11-22T17:18:29.259502+00:00",
+    "prerelease": false
+  },
+  "mlmvpn/mlmvpn_android@v1.2.48": {
+    "app": "MLM VPN",
+    "repo": "mlmvpn/mlmvpn_android",
+    "tag": "v1.2.48",
+    "url": "https://github.com/mlmvpn/mlmvpn_android/releases/tag/v1.2.48",
+    "first_seen": "2026-11-22T17:18:29.259517+00:00",
+    "prerelease": false
+  },
+  "mlmvpn/mlmvpn_android@v1.2.47": {
+    "app": "MLM VPN",
+    "repo": "mlmvpn/mlmvpn_android",
+    "tag": "v1.2.47",
+    "url": "https://github.com/mlmvpn/mlmvpn_android/releases/tag/v1.2.47",
+    "first_seen": "2026-11-22T17:18:29.259520+00:00",
+    "prerelease": false
+  },
+  "ExclaveNetwork/Exclave@0.17.69": {
+    "app": "Exclave",
+    "repo": "ExclaveNetwork/Exclave",
+    "tag": "0.17.69",
+    "url": "https://github.com/ExclaveNetwork/Exclave/releases/tag/0.17.69",
+    "first_seen": "2026-11-22T17:18:29.663829+00:00",
+    "prerelease": false
+  },
+  "ExclaveNetwork/Exclave@0.17.68": {
+    "app": "Exclave",
+    "repo": "ExclaveNetwork/Exclave",
+    "tag": "0.17.68",
+    "url": "https://github.com/ExclaveNetwork/Exclave/releases/tag/0.17.68",
+    "first_seen": "2026-11-22T17:18:29.663844+00:00",
+    "prerelease": false
+  },
+  "ExclaveNetwork/Exclave@0.17.67": {
+    "app": "Exclave",
+    "repo": "ExclaveNetwork/Exclave",
+    "tag": "0.17.67",
+    "url": "https://github.com/ExclaveNetwork/Exclave/releases/tag/0.17.67",
+    "first_seen": "2026-11-22T17:18:29.663846+00:00",
+    "prerelease": false
+  },
+  "ExclaveNetwork/Exclave@0.17.66": {
+    "app": "Exclave",
+    "repo": "ExclaveNetwork/Exclave",
+    "tag": "0.17.66",
+    "url": "https://github.com/ExclaveNetwork/Exclave/releases/tag/0.17.66",
+    "first_seen": "2026-11-22T17:18:29.663848+00:00",
+    "prerelease": false
+  },
+  "ExclaveNetwork/Exclave@0.17.64": {
+    "app": "Exclave",
+    "repo": "ExclaveNetwork/Exclave",
+    "tag": "0.17.64",
+    "url": "https://github.com/ExclaveNetwork/Exclave/releases/tag/0.17.64",
+    "first_seen": "2026-11-22T17:18:29.663849+00:00",
+    "prerelease": false
+  },
+  "ExclaveNetwork/Exclave@0.17.63-beta.3": {
+    "app": "Exclave",
+    "repo": "ExclaveNetwork/Exclave",
+    "tag": "0.17.63-beta.3",
+    "url": "https://github.com/ExclaveNetwork/Exclave/releases/tag/0.17.63-beta.3",
+    "first_seen": "2026-11-22T17:18:29.663851+00:00",
+    "prerelease": true
+  },
+  "ExclaveNetwork/Exclave@0.17.63-beta.1": {
+    "app": "Exclave",
+    "repo": "ExclaveNetwork/Exclave",
+    "tag": "0.17.63-beta.1",
+    "url": "https://github.com/ExclaveNetwork/Exclave/releases/tag/0.17.63-beta.1",
+    "first_seen": "2026-11-22T17:18:29.663852+00:00",
+    "prerelease": true
+  },
+  "ExclaveNetwork/Exclave@0.17.62": {
+    "app": "Exclave",
+    "repo": "ExclaveNetwork/Exclave",
+    "tag": "0.17.62",
+    "url": "https://github.com/ExclaveNetwork/Exclave/releases/tag/0.17.62",
+    "first_seen": "2026-11-22T17:18:29.663854+00:00",
+    "prerelease": false
+  },
+  "ExclaveNetwork/Exclave@0.17.60": {
+    "app": "Exclave",
+    "repo": "ExclaveNetwork/Exclave",
+    "tag": "0.17.60",
+    "url": "https://github.com/ExclaveNetwork/Exclave/releases/tag/0.17.60",
+    "first_seen": "2026-11-22T17:18:29.663855+00:00",
+    "prerelease": false
+  },
+  "ExclaveNetwork/Exclave@0.17.58": {
+    "app": "Exclave",
+    "repo": "ExclaveNetwork/Exclave",
+    "tag": "0.17.58",
+    "url": "https://github.com/ExclaveNetwork/Exclave/releases/tag/0.17.58",
+    "first_seen": "2026-11-22T17:18:29.663857+00:00",
+    "prerelease": false
+  },
+  "ExclaveNetwork/Exclave@0.17.57-beta.1": {
+    "app": "Exclave",
+    "repo": "ExclaveNetwork/Exclave",
+    "tag": "0.17.57-beta.1",
+    "url": "https://github.com/ExclaveNetwork/Exclave/releases/tag/0.17.57-beta.1",
+    "first_seen": "2026-11-22T17:18:29.663859+00:00",
+    "prerelease": true
+  },
+  "ExclaveNetwork/Exclave@0.17.57-beta.0": {
+    "app": "Exclave",
+    "repo": "ExclaveNetwork/Exclave",
+    "tag": "0.17.57-beta.0",
+    "url": "https://github.com/ExclaveNetwork/Exclave/releases/tag/0.17.57-beta.0",
+    "first_seen": "2026-11-22T17:18:29.663860+00:00",
+    "prerelease": true
+  },
+  "ArasTey/ArasClient@v1.9.0": {
+    "app": "ArasClient",
+    "repo": "ArasTey/ArasClient",
+    "tag": "v1.9.0",
+    "url": "https://github.com/ArasTey/ArasClient/releases/tag/v1.9.0",
+    "first_seen": "2026-11-22T17:18:30.116463+00:00",
+    "prerelease": false
+  },
+  "umutxyp/Shroudly@v2.6.88": {
+    "app": "Shroudly",
+    "repo": "umutxyp/Shroudly",
+    "tag": "v2.6.88",
+    "url": "https://github.com/umutxyp/Shroudly/releases/tag/v2.6.88",
+    "first_seen": "2026-11-22T17:18:30.560540+00:00",
+    "prerelease": false
+  },
+  "umutxyp/Shroudly@v2.6.87": {
+    "app": "Shroudly",
+    "repo": "umutxyp/Shroudly",
+    "tag": "v2.6.87",
+    "url": "https://github.com/umutxyp/Shroudly/releases/tag/v2.6.87",
+    "first_seen": "2026-11-22T17:18:30.560556+00:00",
+    "prerelease": false
+  },
+  "umutxyp/Shroudly@v2.6.86": {
+    "app": "Shroudly",
+    "repo": "umutxyp/Shroudly",
+    "tag": "v2.6.86",
+    "url": "https://github.com/umutxyp/Shroudly/releases/tag/v2.6.86",
+    "first_seen": "2026-11-22T17:18:30.560559+00:00",
+    "prerelease": false
+  },
+  "umutxyp/Shroudly@v2.6.85": {
+    "app": "Shroudly",
+    "repo": "umutxyp/Shroudly",
+    "tag": "v2.6.85",
+    "url": "https://github.com/umutxyp/Shroudly/releases/tag/v2.6.85",
+    "first_seen": "2026-11-22T17:18:30.560561+00:00",
+    "prerelease": false
+  },
+  "umutxyp/Shroudly@v2.6.84": {
+    "app": "Shroudly",
+    "repo": "umutxyp/Shroudly",
+    "tag": "v2.6.84",
+    "url": "https://github.com/umutxyp/Shroudly/releases/tag/v2.6.84",
+    "first_seen": "2026-11-22T17:18:30.560562+00:00",
+    "prerelease": false
+  },
+  "umutxyp/Shroudly@v2.6.83": {
+    "app": "Shroudly",
+    "repo": "umutxyp/Shroudly",
+    "tag": "v2.6.83",
+    "url": "https://github.com/umutxyp/Shroudly/releases/tag/v2.6.83",
+    "first_seen": "2026-11-22T17:18:30.560564+00:00",
+    "prerelease": false
+  },
+  "umutxyp/Shroudly@v2.6.82": {
+    "app": "Shroudly",
+    "repo": "umutxyp/Shroudly",
+    "tag": "v2.6.82",
+    "url": "https://github.com/umutxyp/Shroudly/releases/tag/v2.6.82",
+    "first_seen": "2026-11-22T17:18:30.560566+00:00",
+    "prerelease": false
+  },
+  "umutxyp/Shroudly@v2.6.80": {
+    "app": "Shroudly",
+    "repo": "umutxyp/Shroudly",
+    "tag": "v2.6.80",
+    "url": "https://github.com/umutxyp/Shroudly/releases/tag/v2.6.80",
+    "first_seen": "2026-11-22T17:18:30.560567+00:00",
+    "prerelease": false
+  },
+  "umutxyp/Shroudly@v2.6.79": {
+    "app": "Shroudly",
+    "repo": "umutxyp/Shroudly",
+    "tag": "v2.6.79",
+    "url": "https://github.com/umutxyp/Shroudly/releases/tag/v2.6.79",
+    "first_seen": "2026-11-22T17:18:30.560569+00:00",
+    "prerelease": false
+  },
+  "umutxyp/Shroudly@tor-16.0.1": {
+    "app": "Shroudly",
+    "repo": "umutxyp/Shroudly",
+    "tag": "tor-16.0.1",
+    "url": "https://github.com/umutxyp/Shroudly/releases/tag/tor-16.0.1",
+    "first_seen": "2026-11-22T17:18:30.560570+00:00",
+    "prerelease": true
+  },
+  "umutxyp/Shroudly@v2.6.78": {
+    "app": "Shroudly",
+    "repo": "umutxyp/Shroudly",
+    "tag": "v2.6.78",
+    "url": "https://github.com/umutxyp/Shroudly/releases/tag/v2.6.78",
+    "first_seen": "2026-11-22T17:18:30.560572+00:00",
+    "prerelease": false
+  },
+  "umutxyp/Shroudly@v2.6.77": {
+    "app": "Shroudly",
+    "repo": "umutxyp/Shroudly",
+    "tag": "v2.6.77",
+    "url": "https://github.com/umutxyp/Shroudly/releases/tag/v2.6.77",
+    "first_seen": "2026-11-22T17:18:30.560574+00:00",
+    "prerelease": false
+  },
+  "umutxyp/Shroudly@v2.6.76": {
+    "app": "Shroudly",
+    "repo": "umutxyp/Shroudly",
+    "tag": "v2.6.76",
+    "url": "https://github.com/umutxyp/Shroudly/releases/tag/v2.6.76",
+    "first_seen": "2026-11-22T17:18:30.560575+00:00",
+    "prerelease": false
+  },
+  "GFW-knocker/MahsaNG@v18-(1405-7-10)": {
+    "app": "MahsaNG",
+    "repo": "GFW-knocker/MahsaNG",
+    "tag": "v18-(1405-7-10)",
+    "url": "https://github.com/GFW-knocker/MahsaNG/releases/tag/v18-(1405-7-10)",
+    "first_seen": "2026-11-22T17:18:30.893819+00:00",
+    "prerelease": false
+  },
+  "GFW-knocker/MahsaNG@v17-(1405-4-12)": {
+    "app": "MahsaNG",
+    "repo": "GFW-knocker/MahsaNG",
+    "tag": "v17-(1405-4-12)",
+    "url": "https://github.com/GFW-knocker/MahsaNG/releases/tag/v17-(1405-4-12)",
+    "first_seen": "2026-11-22T17:18:30.893834+00:00",
+    "prerelease": false
+  },
+  "GFW-knocker/MahsaNG@v17-(1405-4-8)": {
+    "app": "MahsaNG",
+    "repo": "GFW-knocker/MahsaNG",
+    "tag": "v17-(1405-4-8)",
+    "url": "https://github.com/GFW-knocker/MahsaNG/releases/tag/v17-(1405-4-8)",
+    "first_seen": "2026-11-22T17:18:30.893836+00:00",
+    "prerelease": false
+  },
+  "GFW-knocker/MahsaNG@v16-(1405-2-25)": {
+    "app": "MahsaNG",
+    "repo": "GFW-knocker/MahsaNG",
+    "tag": "v16-(1405-2-25)",
+    "url": "https://github.com/GFW-knocker/MahsaNG/releases/tag/v16-(1405-2-25)",
+    "first_seen": "2026-11-22T17:18:30.893838+00:00",
+    "prerelease": false
+  },
+  "GFW-knocker/MahsaNG@v15-(1405-1-22)": {
+    "app": "MahsaNG",
+    "repo": "GFW-knocker/MahsaNG",
+    "tag": "v15-(1405-1-22)",
+    "url": "https://github.com/GFW-knocker/MahsaNG/releases/tag/v15-(1405-1-22)",
+    "first_seen": "2026-11-22T17:18:30.893841+00:00",
+    "prerelease": false
+  },
+  "GFW-knocker/MahsaNG@v14-(1404-5-30)": {
+    "app": "MahsaNG",
+    "repo": "GFW-knocker/MahsaNG",
+    "tag": "v14-(1404-5-30)",
+    "url": "https://github.com/GFW-knocker/MahsaNG/releases/tag/v14-(1404-5-30)",
+    "first_seen": "2026-11-22T17:18:30.893842+00:00",
+    "prerelease": false
+  },
+  "GFW-knocker/MahsaNG@v13-(1404-2-25)": {
+    "app": "MahsaNG",
+    "repo": "GFW-knocker/MahsaNG",
+    "tag": "v13-(1404-2-25)",
+    "url": "https://github.com/GFW-knocker/MahsaNG/releases/tag/v13-(1404-2-25)",
+    "first_seen": "2026-11-22T17:18:30.893844+00:00",
+    "prerelease": false
+  },
+  "GFW-knocker/MahsaNG@v12-(1403-11-7)": {
+    "app": "MahsaNG",
+    "repo": "GFW-knocker/MahsaNG",
+    "tag": "v12-(1403-11-7)",
+    "url": "https://github.com/GFW-knocker/MahsaNG/releases/tag/v12-(1403-11-7)",
+    "first_seen": "2026-11-22T17:18:30.893845+00:00",
+    "prerelease": false
+  },
+  "GFW-knocker/MahsaNG@v11-(1403-10-25)": {
+    "app": "MahsaNG",
+    "repo": "GFW-knocker/MahsaNG",
+    "tag": "v11-(1403-10-25)",
+    "url": "https://github.com/GFW-knocker/MahsaNG/releases/tag/v11-(1403-10-25)",
+    "first_seen": "2026-11-22T17:18:30.893847+00:00",
+    "prerelease": false
+  },
+  "GFW-knocker/MahsaNG@v10-(1403-7-25)": {
+    "app": "MahsaNG",
+    "repo": "GFW-knocker/MahsaNG",
+    "tag": "v10-(1403-7-25)",
+    "url": "https://github.com/GFW-knocker/MahsaNG/releases/tag/v10-(1403-7-25)",
+    "first_seen": "2026-11-22T17:18:30.893849+00:00",
+    "prerelease": false
+  },
+  "GFW-knocker/MahsaNG@v9.5-(1403-6-10)": {
+    "app": "MahsaNG",
+    "repo": "GFW-knocker/MahsaNG",
+    "tag": "v9.5-(1403-6-10)",
+    "url": "https://github.com/GFW-knocker/MahsaNG/releases/tag/v9.5-(1403-6-10)",
+    "first_seen": "2026-11-22T17:18:30.893850+00:00",
+    "prerelease": false
+  },
+  "GFW-knocker/MahsaNG@v9.0-(1403-5-30)": {
+    "app": "MahsaNG",
+    "repo": "GFW-knocker/MahsaNG",
+    "tag": "v9.0-(1403-5-30)",
+    "url": "https://github.com/GFW-knocker/MahsaNG/releases/tag/v9.0-(1403-5-30)",
+    "first_seen": "2026-11-22T17:18:30.893851+00:00",
+    "prerelease": false
+  }
+}
