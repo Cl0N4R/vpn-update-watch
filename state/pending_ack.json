@@ -406,5 +406,37 @@
     "url": "https://github.com/GFW-knocker/MahsaNG/releases/tag/v9.0-(1403-5-30)",
     "first_seen": "2026-11-22T17:18:30.893851+00:00",
     "prerelease": false
+  },
+  "patterniha/PattNG@2.4.0-P74": {
+    "app": "PattNG",
+    "repo": "patterniha/PattNG",
+    "tag": "2.4.0-P74",
+    "url": "https://github.com/patterniha/PattNG/releases/tag/2.4.0-P74",
+    "first_seen": "2026-11-23T21:38:09.168363+00:00",
+    "prerelease": false
+  },
+  "ExclaveNetwork/Exclave@0.17.70": {
+    "app": "Exclave",
+    "repo": "ExclaveNetwork/Exclave",
+    "tag": "0.17.70",
+    "url": "https://github.com/ExclaveNetwork/Exclave/releases/tag/0.17.70",
+    "first_seen": "2026-11-23T21:38:11.303555+00:00",
+    "prerelease": false
+  },
+  "umutxyp/Shroudly@v2.6.90": {
+    "app": "Shroudly",
+    "repo": "umutxyp/Shroudly",
+    "tag": "v2.6.90",
+    "url": "https://github.com/umutxyp/Shroudly/releases/tag/v2.6.90",
+    "first_seen": "2026-11-23T21:38:12.559132+00:00",
+    "prerelease": false
+  },
+  "umutxyp/Shroudly@v2.6.89": {
+    "app": "Shroudly",
+    "repo": "umutxyp/Shroudly",
+    "tag": "v2.6.89",
+    "url": "https://github.com/umutxyp/Shroudly/releases/tag/v2.6.89",
+    "first_seen": "2026-11-23T21:38:12.559150+00:00",
+    "prerelease": false
   }
 }

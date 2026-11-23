@@ -1,6 +1,6 @@
 # گزارش پایش نسخه‌ها
 
-آخرین بررسی (UTC): 2026-11-22T17:18:30.893854+00:00
+آخرین بررسی (UTC): 2026-11-23T21:38:13.195780+00:00
 
 > فقط داده‌های رسمی GitHub گزارش می‌شود؛ این ابزار درباره نصب یا ارتقا توصیه نمی‌کند.
 
@@ -193,6 +193,17 @@ BPB is now equipped with specific Cloudflare scanners for all protocol! The scan
 
 
 ## PattNG — `patterniha/PattNG`
+### PattNG v2.4.0-P74 (Stable)
+- Tag: `2.4.0-P74`
+- تاریخ انتشار: 2026-11-23T05:00:11Z
+- صفحه رسمی: https://github.com/patterniha/PattNG/releases/tag/2.4.0-P74
+- APKهای ARM64:
+  - [PattNG_2.4.0-P74_arm64-v8a.apk](https://github.com/patterniha/PattNG/releases/download/2.4.0-P74/PattNG_2.4.0-P74_arm64-v8a.apk)
+  - [PattNG_fdroid_2.4.0-P74_arm64-v8a.apk](https://github.com/patterniha/PattNG/releases/download/2.4.0-P74/PattNG_fdroid_2.4.0-P74_arm64-v8a.apk)
+
+**یادداشت توسعه‌دهنده:**
+.
+
 ### PattNG v2.4.0-P73 (Stable)
 - Tag: `2.4.0-P73`
 - تاریخ انتشار: 2026-11-17T01:24:25Z
@@ -233,17 +244,6 @@ BPB is now equipped with specific Cloudflare scanners for all protocol! The scan
 - APKهای ARM64:
   - [PattNG_2.3.13-P70_arm64-v8a.apk](https://github.com/patterniha/PattNG/releases/download/2.3.13-P70/PattNG_2.3.13-P70_arm64-v8a.apk)
   - [PattNG_fdroid_2.3.13-P70_arm64-v8a.apk](https://github.com/patterniha/PattNG/releases/download/2.3.13-P70/PattNG_fdroid_2.3.13-P70_arm64-v8a.apk)
-
-**یادداشت توسعه‌دهنده:**
-.
-
-### PattNG v2.3.13-P69 (Stable)
-- Tag: `2.3.13-P69`
-- تاریخ انتشار: 2026-10-25T03:12:21Z
-- صفحه رسمی: https://github.com/patterniha/PattNG/releases/tag/2.3.13-P69
-- APKهای ARM64:
-  - [PattNG_2.3.13-P69_arm64-v8a.apk](https://github.com/patterniha/PattNG/releases/download/2.3.13-P69/PattNG_2.3.13-P69_arm64-v8a.apk)
-  - [PattNG_fdroid_2.3.13-P69_arm64-v8a.apk](https://github.com/patterniha/PattNG/releases/download/2.3.13-P69/PattNG_fdroid_2.3.13-P69_arm64-v8a.apk)
 
 **یادداشت توسعه‌دهنده:**
 .
@@ -523,6 +523,18 @@ iOS/tvOS AppStore: (Search Keywords: karing vpn) https://apps.apple.com/us/app/k
 
 
 ## Exclave — `ExclaveNetwork/Exclave`
+### 0.17.70 (Stable)
+- Tag: `0.17.70`
+- تاریخ انتشار: 2026-11-23T14:00:56Z
+- صفحه رسمی: https://github.com/ExclaveNetwork/Exclave/releases/tag/0.17.70
+- APKهای ARM64:
+  - [Exclave-0.17.70-arm64-v8a.apk](https://github.com/ExclaveNetwork/Exclave/releases/download/0.17.70/Exclave-0.17.70-arm64-v8a.apk)
+  - [Exclave-0.17.70-legacy-arm64-v8a.apk](https://github.com/ExclaveNetwork/Exclave/releases/download/0.17.70/Exclave-0.17.70-legacy-arm64-v8a.apk)
+
+**یادداشت توسعه‌دهنده:**
+- Fix regressions introduced in the previous version.
+- Change the name of the Quick Settings tile to app name.
+
 ### 0.17.69 (Stable)
 - Tag: `0.17.69`
 - تاریخ انتشار: 2026-11-22T13:51:23Z
@@ -589,25 +601,6 @@ About CVE-2026-98432 ([NVD](https://nvd.nist.gov/vuln/detail/cve-2026-98432), [g
 - Fix high CPU usage after proxy closed or network switching for Hysteria 2 (maybe other QUIC-based protocols too).
 - Fix connections not closed correctly on proxy closed.
 - Fix the `/proc/net/` based UID dumper on Android 9 or earlier (similar to https://github.com/SagerNet/sing-box/commit/40bc411e8d024e3f8c8f435c2a2ad5e4c0e04bce).
-
-### 0.17.64 (Stable)
-- Tag: `0.17.64`
-- تاریخ انتشار: 2026-10-21T11:33:36Z
-- صفحه رسمی: https://github.com/ExclaveNetwork/Exclave/releases/tag/0.17.64
-- APKهای ARM64:
-  - [Exclave-0.17.64-arm64-v8a.apk](https://github.com/ExclaveNetwork/Exclave/releases/download/0.17.64/Exclave-0.17.64-arm64-v8a.apk)
-  - [Exclave-0.17.64-legacy-arm64-v8a.apk](https://github.com/ExclaveNetwork/Exclave/releases/download/0.17.64/Exclave-0.17.64-legacy-arm64-v8a.apk)
-
-**یادداشت توسعه‌دهنده:**
-- Add experimental CONNECT-IP (so-called "MASQUE") support.
-- Fix CONNECT-UDP bugs.
-- Update Go to 1.27.3, which has been hardcoded to blacklist 8 eMudhra intermediate certificates.
-- Update the bundled Mozilla CA certificate store to the latest version, which has removed eMudhra root certificates.
-- Rename root CA provider "system" to "Go" and rename root CA provider "system and user" to "Android" to avoid confusion.
-
-This is a security update. The private keys for some of eMudhra’s intermediate certificates are too weak, causing them to be [compromised](https://emudhra.we-have-a-problem.com/) through enumeration and exposing users to man-in-the-middle attacks. These private keys have since spread across the Internet and can be obtained by everyone.
-
-You may want to know the impact of the compromise of eMudhra intermediate certificates for Exclave: https://github.com/ExclaveNetwork/Exclave/issues/500.
 
 ## ArasClient — `ArasTey/ArasClient`
 ### ArasClient 1.9.0 (Stable)
@@ -775,6 +768,92 @@ Everything since v1.8.6 in one release — the 1.8.7 / 1.8.71 / 1.8.75 rounds pl
 
 
 ## Shroudly — `umutxyp/Shroudly`
+### Shroudly v2.6.90 (Stable)
+- Tag: `v2.6.90`
+- تاریخ انتشار: 2026-11-23T18:44:02Z
+- صفحه رسمی: https://github.com/umutxyp/Shroudly/releases/tag/v2.6.90
+- APKهای ARM64:
+  - [Shroudly-2.6.90-Android-arm64.apk](https://github.com/umutxyp/Shroudly/releases/download/v2.6.90/Shroudly-2.6.90-Android-arm64.apk)
+
+**یادداشت توسعه‌دهنده:**
+## Shroudly 2.6.90
+
+**The last way out (Tor) is off until you allow it, on every system and in every store edition.**
+
+### Windows, macOS, Linux, Android, Android TV, the Mac App Store app
+- "When nothing else works: the Tor network" no longer shows on from the first start. Tor never carried anything before the user said yes, but the switch looked as if it was on; it now shows what the user chose.
+- Nothing is lost for anyone who chose before: with no stored choice, the switch is on only where Tor was allowed earlier ("Use Tor" on the card, or the switch turned on).
+- Everyone else is asked when a site that no technique opens needs Tor, as after a "No": at most once a day for the same site, and the answer is kept.
+- With the switch off, a problem report is no longer sent through Tor by itself on networks that block Cloudflare; with it on, it is sent as before.
+- iPhone, iPad and Apple TV have no Tor; nothing changes there.
+
+### Tests
+- `tests/net/tor-ask.test.js` checks that no part of the desktop app takes "on" when nothing is stored, that the switch shows on only when it is on, that a report says "off" for nothing stored, that Android (`TorRoute.enabled`) and Apple (`Settings`) fall back to the earlier "allowed" answer, and that with the switch off a site nothing opens is asked about. Apple's own tests (`TorRouteTests`, `ReportTests`) and Android's unit tests pass with the new default.
+
+### Downloads
+| OS | Intel / AMD (x64) | ARM |
+|----|-------------------|-----|
+| Windows 10 / 11 | `Shroudly-2.6.90-Windows-x64-Setup.exe` · 32-bit: `Shroudly-2.6.90-Windows-ia32-Setup.exe` | `Shroudly-2.6.90-Windows-arm64-Setup.exe` |
+| **Windows 7 / 8 / 8.1** | `Shroudly-2.6.90-Windows7-8-Setup.exe` (32- and 64-bit) | |
+| macOS 12+ | `Shroudly-2.6.90-macOS-x64.dmg` (Intel) | `Shroudly-2.6.90-macOS-arm64.dmg` (Apple Silicon) |
+| Debian / Ubuntu | `Shroudly-2.6.90-Linux-amd64.deb` | `Shroudly-2.6.90-Linux-arm64.AppImage` |
+| Arch / Manjaro | `Shroudly-2.6.90-Linux-x64.pacman` | AppImage |
+| Fedora / openSUSE / RHEL | `Shroudly-2.6.90-Linux-x86_64.rpm` | AppImage |
+| Any distribution | `Shroudly-2.6.90-Linux-x86_64.AppImage` | `Shroudly-2.6.90-Linux-arm64.AppImage` |
+| 32-bit ARM (armhf) | | `Shroudly-2.6.90-Linux-armv7l.AppImage` · `Shroudly-2.6.90-Linux-armv7l.deb` |
+| **Android 8+, Android TV, Google TV** | `Shroudly-2.6.90-Android.apk` (one APK for every device) | same |
+| Android, smaller | `Shroudly-2.6.90-Android-arm64.apk` (64-bit ARM phones only, most of them) · `Shroudly-2.6.90-Android-lite.apk` (every phone, without Tor) | same |
+| **iPhone / iPad (iOS 16+), Mac, Apple TV (tvOS 17+)** | | App Store: Mac 2.6.87 (2.6.90 in review), iPhone/iPad 2.6.82 in review; 2.6.90 with the TestFlight testers; `Shroudly-2.6.90-iOS.ipa` for TrollStore |
+| **Google Play** (Android, Android TV) | [Get it on Google Play](https://play.google.com/store/apps/details?id=me.codeshare.shroudly) | same |
+| **A Linux server** | [one line](https://github.com/umutxyp/Shroudly#on-a-server) | same |
+
+
+### Shroudly v2.6.89 (Stable)
+- Tag: `v2.6.89`
+- تاریخ انتشار: 2026-11-22T23:40:52Z
+- صفحه رسمی: https://github.com/umutxyp/Shroudly/releases/tag/v2.6.89
+- APKهای ARM64:
+  - [Shroudly-2.6.89-Android-arm64.apk](https://github.com/umutxyp/Shroudly/releases/download/v2.6.89/Shroudly-2.6.89-Android-arm64.apk)
+
+**یادداشت توسعه‌دهنده:**
+## Shroudly 2.6.89
+
+**"Your own server" takes VLESS and Trojan links, on every platform.**
+
+### Every platform (Windows, macOS, Linux, Android, Android TV, iPhone, iPad, the Mac App Store app, Apple TV)
+- Your own server now takes `vless://` and `trojan://` links, the kinds people in Iran pass around, where Shadowsocks is filtered by its look (asked for from Iran, with a link to a server behind a CDN). Carried over plain TCP, a WebSocket or HTTPUpgrade, with TLS or without; `host`, `sni`, `path` and `alpn` are read from the link, and Xray's `?ed=` note is taken off the path. Shroudly has no servers of its own: the server is the user's, as with Shadowsocks.
+- A link that asks for something not carried is told so by its name, never tried another way: REALITY, the XTLS Vision flow, gRPC, XHTTP, mKCP, VLESS's own encryption.
+- The server's certificate is checked for the name the link gives (its `sni`, or its `Host`, or its address). A certificate that is not valid for it is refused and said as that. `allowInsecure=1` is followed on the desktop only; on phones, tablets and Apple devices such a link is refused with its name.
+- The saved link is shown with its key covered, and the log never has it.
+
+### Windows, macOS, Linux (updates)
+- An update (about 100 MB) is no longer downloaded by itself while the Roblox player is open or a full-screen program is in front. On a thin line it took the whole line for minutes, and a game's delay went from tens of milliseconds to seconds "out of nowhere" (a report from an ADSL line, 13 Mbit/s down). It is looked at again at each check, so the download comes once the game is over; "Check for updates" by hand downloads at once, as before.
+
+### Every platform (the engine)
+- Plain HTTP: the technique that rewrites the Host header writes it in mixed case (`hOsT:`) instead of all lower case (`host:`). A filter that looks for `Host:` often looks for `host:` too, which every HTTP/2 client writes: Vietnam's resets both and lets the mixed case through (measured from a Vietnamese line on 2026-11-22, where the technique opened none of four blocked sites before and all four after). Every one of 96 large web servers answered the mixed case exactly as the usual one.
+
+### Tests
+- The headers are the same bytes on every platform (`tests/net/fixtures/vless-vectors.json`, read by the desktop's, Android's and Apple's tests). Each platform carries connections through a server of each kind written in its tests (TCP, WebSocket, HTTPUpgrade; the desktop and Android also with TLS); Apple's TLS is tried against a real site by its name, by its address with the name in `sni`, and under a name its certificate is not for.
+- The Windows lab's stand-in DNS forwarder takes a port the system picks and is waited for: on a port of the lab's choosing it sometimes never came up, and the DNS gate was reported as not answering.
+
+### Downloads
+| OS | Intel / AMD (x64) | ARM |
+|----|-------------------|-----|
+| Windows 10 / 11 | `Shroudly-2.6.89-Windows-x64-Setup.exe` · 32-bit: `Shroudly-2.6.89-Windows-ia32-Setup.exe` | `Shroudly-2.6.89-Windows-arm64-Setup.exe` |
+| **Windows 7 / 8 / 8.1** | `Shroudly-2.6.89-Windows7-8-Setup.exe` (32- and 64-bit) | |
+| macOS 12+ | `Shroudly-2.6.89-macOS-x64.dmg` (Intel) | `Shroudly-2.6.89-macOS-arm64.dmg` (Apple Silicon) |
+| Debian / Ubuntu | `Shroudly-2.6.89-Linux-amd64.deb` | `Shroudly-2.6.89-Linux-arm64.AppImage` |
+| Arch / Manjaro | `Shroudly-2.6.89-Linux-x64.pacman` | AppImage |
+| Fedora / openSUSE / RHEL | `Shroudly-2.6.89-Linux-x86_64.rpm` | AppImage |
+| Any distribution | `Shroudly-2.6.89-Linux-x86_64.AppImage` | `Shroudly-2.6.89-Linux-arm64.AppImage` |
+| 32-bit ARM (armhf) | | `Shroudly-2.6.89-Linux-armv7l.AppImage` · `Shroudly-2.6.89-Linux-armv7l.deb` |
+| **Android 8+, Android TV, Google TV** | `Shroudly-2.6.89-Android.apk` (one APK for every device) | same |
+| Android, smaller | `Shroudly-2.6.89-Android-arm64.apk` (64-bit ARM phones only, most of them) · `Shroudly-2.6.89-Android-lite.apk` (every phone, without Tor) | same |
+| **iPhone / iPad (iOS 16+), Mac, Apple TV (tvOS 17+)** | | App Store: Mac 2.6.84 (2.6.87 in review), iPhone/iPad 2.6.82 in review; 2.6.89 with the TestFlight testers; `Shroudly-2.6.89-iOS.ipa` for TrollStore |
+| **Google Play** (Android, Android TV) | [Get it on Google Play](https://play.google.com/store/apps/details?id=me.codeshare.shroudly) | same |
+| **A Linux server** | [one line](https://github.com/umutxyp/Shroudly#on-a-server) | same |
+
+
 ### Shroudly v2.6.88 (Stable)
 - Tag: `v2.6.88`
 - تاریخ انتشار: 2026-11-22T12:35:18Z
@@ -890,79 +969,6 @@ Everything since v1.8.6 in one release — the 1.8.7 / 1.8.71 / 1.8.75 rounds pl
 | **Android 8+, Android TV, Google TV** | `Shroudly-2.6.86-Android.apk` (one APK for every device) | same |
 | Android, smaller | `Shroudly-2.6.86-Android-arm64.apk` (64-bit ARM phones only, most of them) · `Shroudly-2.6.86-Android-lite.apk` (every phone, without Tor) | same |
 | **iPhone / iPad (iOS 16+), Mac, Apple TV (tvOS 17+)** | | App Store: iPhone/iPad 2.6.82 in review, Mac 2.6.84 in review; 2.6.86 with the TestFlight testers; `Shroudly-2.6.86-iOS.ipa` for TrollStore |
-| **Google Play** (Android, Android TV) | [Get it on Google Play](https://play.google.com/store/apps/details?id=me.codeshare.shroudly) | same |
-| **A Linux server** | [one line](https://github.com/umutxyp/Shroudly#on-a-server) | same |
-
-
-### Shroudly v2.6.85 (Stable)
-- Tag: `v2.6.85`
-- تاریخ انتشار: 2026-11-19T04:48:33Z
-- صفحه رسمی: https://github.com/umutxyp/Shroudly/releases/tag/v2.6.85
-- APKهای ARM64:
-  - [Shroudly-2.6.85-Android-arm64.apk](https://github.com/umutxyp/Shroudly/releases/download/v2.6.85/Shroudly-2.6.85-Android-arm64.apk)
-
-**یادداشت توسعه‌دهنده:**
-## Shroudly 2.6.85
-
-**Advanced mode against a connection cut after its first kilobytes: a site that opens and then stops (x.com and Discord's app on Rostelecom) gets the stronger way on its next connections, and on Windows its decoys can now be kept from servers by TCP timestamps.**
-
-### Windows and Linux (Advanced mode)
-- A connection that opens and is then cut after its first 16 to 20 KB (Russia's filter ends connections to some foreign services this way; a report from Rostelecom: x.com loaded white after the login, Discord's app kept losing its connection): the engine tells Advanced mode the server's address, and that server's next connections go the stronger way, the decoy ClientHello eight times, which the filter takes for the connection's own (what zapret's ALT strategies do). Every other server goes exactly as before; a server the stronger way does not suit is taken back to the usual way at its first resend.
-- Windows: Advanced mode turns on TCP timestamps, as Linux, macOS and Android have them by default (zapret's Windows service does the same). The stronger way's decoys are then kept from the server by the timestamp, which a filter in between cannot tell apart, instead of by a low TTL that a filter farther away never sees.
-
-### Every system
-- The engine says which server cut a connection after its handshake (a new line for Advanced mode); the phone and Apple apps ignore it.
-
-### Downloads
-| OS | Intel / AMD (x64) | ARM |
-|----|-------------------|-----|
-| Windows 10 / 11 | `Shroudly-2.6.85-Windows-x64-Setup.exe` · 32-bit: `Shroudly-2.6.85-Windows-ia32-Setup.exe` | `Shroudly-2.6.85-Windows-arm64-Setup.exe` |
-| **Windows 7 / 8 / 8.1** | `Shroudly-2.6.85-Windows7-8-Setup.exe` (32- and 64-bit) | |
-| macOS 12+ | `Shroudly-2.6.85-macOS-x64.dmg` (Intel) | `Shroudly-2.6.85-macOS-arm64.dmg` (Apple Silicon) |
-| Debian / Ubuntu | `Shroudly-2.6.85-Linux-amd64.deb` | `Shroudly-2.6.85-Linux-arm64.AppImage` |
-| Arch / Manjaro | `Shroudly-2.6.85-Linux-x64.pacman` | AppImage |
-| Fedora / openSUSE / RHEL | `Shroudly-2.6.85-Linux-x86_64.rpm` | AppImage |
-| Any distribution | `Shroudly-2.6.85-Linux-x86_64.AppImage` | `Shroudly-2.6.85-Linux-arm64.AppImage` |
-| 32-bit ARM (armhf) | | `Shroudly-2.6.85-Linux-armv7l.AppImage` · `Shroudly-2.6.85-Linux-armv7l.deb` |
-| **Android 8+, Android TV, Google TV** | `Shroudly-2.6.85-Android.apk` (one APK for every device) | same |
-| Android, smaller | `Shroudly-2.6.85-Android-arm64.apk` (64-bit ARM phones only, most of them) · `Shroudly-2.6.85-Android-lite.apk` (every phone, without Tor) | same |
-| **iPhone / iPad (iOS 16+), Mac, Apple TV (tvOS 17+)** | | App Store: iPhone/iPad 2.6.82 in review, Mac 2.6.84 in review; 2.6.85 with the TestFlight testers; `Shroudly-2.6.85-iOS.ipa` for TrollStore |
-| **Google Play** (Android, Android TV) | [Get it on Google Play](https://play.google.com/store/apps/details?id=me.codeshare.shroudly) | same |
-| **A Linux server** | [one line](https://github.com/umutxyp/Shroudly#on-a-server) | same |
-
-
-### Shroudly v2.6.84 (Stable)
-- Tag: `v2.6.84`
-- تاریخ انتشار: 2026-11-19T02:14:53Z
-- صفحه رسمی: https://github.com/umutxyp/Shroudly/releases/tag/v2.6.84
-- APKهای ARM64:
-  - [Shroudly-2.6.84-Android-arm64.apk](https://github.com/umutxyp/Shroudly/releases/download/v2.6.84/Shroudly-2.6.84-Android-arm64.apk)
-
-**یادداشت توسعه‌دهنده:**
-## Shroudly 2.6.84
-
-**A small update on top of 2.6.83 (whose changes it carries: blocked sites open faster, new techniques, Advanced mode's stronger way, the anti-cheat step-aside): the Mac App Store app asks for no permission it does not use, and Android's What's new no longer comes back once closed.**
-
-### Mac (App Store app)
-- The app itself no longer asks to accept incoming connections: only its tunnel listens, on 127.0.0.1, where it hands connections to the engine. Nothing changes in how it works.
-
-### Android
-- What's new, once closed, is remembered at once: an app ended right after the notes were closed showed them again on its next opening.
-
-### Downloads
-| OS | Intel / AMD (x64) | ARM |
-|----|-------------------|-----|
-| Windows 10 / 11 | `Shroudly-2.6.84-Windows-x64-Setup.exe` · 32-bit: `Shroudly-2.6.84-Windows-ia32-Setup.exe` | `Shroudly-2.6.84-Windows-arm64-Setup.exe` |
-| **Windows 7 / 8 / 8.1** | `Shroudly-2.6.84-Windows7-8-Setup.exe` (32- and 64-bit) | |
-| macOS 12+ | `Shroudly-2.6.84-macOS-x64.dmg` (Intel) | `Shroudly-2.6.84-macOS-arm64.dmg` (Apple Silicon) |
-| Debian / Ubuntu | `Shroudly-2.6.84-Linux-amd64.deb` | `Shroudly-2.6.84-Linux-arm64.AppImage` |
-| Arch / Manjaro | `Shroudly-2.6.84-Linux-x64.pacman` | AppImage |
-| Fedora / openSUSE / RHEL | `Shroudly-2.6.84-Linux-x86_64.rpm` | AppImage |
-| Any distribution | `Shroudly-2.6.84-Linux-x86_64.AppImage` | `Shroudly-2.6.84-Linux-arm64.AppImage` |
-| 32-bit ARM (armhf) | | `Shroudly-2.6.84-Linux-armv7l.AppImage` · `Shroudly-2.6.84-Linux-armv7l.deb` |
-| **Android 8+, Android TV, Google TV** | `Shroudly-2.6.84-Android.apk` (one APK for every device) | same |
-| Android, smaller | `Shroudly-2.6.84-Android-arm64.apk` (64-bit ARM phones only, most of them) · `Shroudly-2.6.84-Android-lite.apk` (every phone, without Tor) | same |
-| **iPhone / iPad (iOS 16+), Mac, Apple TV (tvOS 17+)** | | App Store: iPhone/iPad 2.6.82 in review, Mac 2.6.84 sent for review; 2.6.84 with the TestFlight testers; `Shroudly-2.6.84-iOS.ipa` for TrollStore |
 | **Google Play** (Android, Android TV) | [Get it on Google Play](https://play.google.com/store/apps/details?id=me.codeshare.shroudly) | same |
 | **A Linux server** | [one line](https://github.com/umutxyp/Shroudly#on-a-server) | same |
 
@@ -1165,5 +1171,9 @@ menu UI improved
 - MahsaNG — `v10-(1403-7-25)` — Stable — https://github.com/GFW-knocker/MahsaNG/releases/tag/v10-(1403-7-25)
 - MahsaNG — `v9.5-(1403-6-10)` — Stable — https://github.com/GFW-knocker/MahsaNG/releases/tag/v9.5-(1403-6-10)
 - MahsaNG — `v9.0-(1403-5-30)` — Stable — https://github.com/GFW-knocker/MahsaNG/releases/tag/v9.0-(1403-5-30)
+- PattNG — `2.4.0-P74` — Stable — https://github.com/patterniha/PattNG/releases/tag/2.4.0-P74
+- Exclave — `0.17.70` — Stable — https://github.com/ExclaveNetwork/Exclave/releases/tag/0.17.70
+- Shroudly — `v2.6.90` — Stable — https://github.com/umutxyp/Shroudly/releases/tag/v2.6.90
+- Shroudly — `v2.6.89` — Stable — https://github.com/umutxyp/Shroudly/releases/tag/v2.6.89
 
 برای ثبت آگاهی، پس از اعلام کاربر «متوجه شدم»، مورد مربوط باید از `state/pending_ack.json` حذف شود. تا پیش از آن، موارد pending در گزارش‌های بعدی تکرار می‌شوند.

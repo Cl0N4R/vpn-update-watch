@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-22T17:18:30.893854+00:00",
+  "checked_at_utc": "2026-11-23T21:38:13.195780+00:00",
   "device": {
     "android_version": 13,
     "architecture": "arm64-v8a",
@@ -272,6 +272,133 @@
       "installed_version": "2.3.12-P66",
       "error": null,
       "releases": [
+        {
+          "tag": "2.4.0-P74",
+          "title": "PattNG v2.4.0-P74",
+          "published_at": "2026-11-23T05:00:11Z",
+          "prerelease": false,
+          "url": "https://github.com/patterniha/PattNG/releases/tag/2.4.0-P74",
+          "notes": ".",
+          "arm64_apks": [
+            {
+              "name": "PattNG_2.4.0-P74_arm64-v8a.apk",
+              "url": "https://github.com/patterniha/PattNG/releases/download/2.4.0-P74/PattNG_2.4.0-P74_arm64-v8a.apk",
+              "size": 76761922
+            },
+            {
+              "name": "PattNG_fdroid_2.4.0-P74_arm64-v8a.apk",
+              "url": "https://github.com/patterniha/PattNG/releases/download/2.4.0-P74/PattNG_fdroid_2.4.0-P74_arm64-v8a.apk",
+              "size": 76761130
+            }
+          ],
+          "assets": [
+            {
+              "name": "PattNG-public-key.asc",
+              "url": "https://github.com/patterniha/PattNG/releases/download/2.4.0-P74/PattNG-public-key.asc",
+              "size": 1688
+            },
+            {
+              "name": "PattNG_2.4.0-P74_arm64-v8a.apk",
+              "url": "https://github.com/patterniha/PattNG/releases/download/2.4.0-P74/PattNG_2.4.0-P74_arm64-v8a.apk",
+              "size": 76761922
+            },
+            {
+              "name": "PattNG_2.4.0-P74_arm64-v8a.apk.sig",
+              "url": "https://github.com/patterniha/PattNG/releases/download/2.4.0-P74/PattNG_2.4.0-P74_arm64-v8a.apk.sig",
+              "size": 566
+            },
+            {
+              "name": "PattNG_2.4.0-P74_armeabi-v7a.apk",
+              "url": "https://github.com/patterniha/PattNG/releases/download/2.4.0-P74/PattNG_2.4.0-P74_armeabi-v7a.apk",
+              "size": 77347558
+            },
+            {
+              "name": "PattNG_2.4.0-P74_armeabi-v7a.apk.sig",
+              "url": "https://github.com/patterniha/PattNG/releases/download/2.4.0-P74/PattNG_2.4.0-P74_armeabi-v7a.apk.sig",
+              "size": 566
+            },
+            {
+              "name": "PattNG_2.4.0-P74_universal.apk",
+              "url": "https://github.com/patterniha/PattNG/releases/download/2.4.0-P74/PattNG_2.4.0-P74_universal.apk",
+              "size": 162729250
+            },
+            {
+              "name": "PattNG_2.4.0-P74_universal.apk.sig",
+              "url": "https://github.com/patterniha/PattNG/releases/download/2.4.0-P74/PattNG_2.4.0-P74_universal.apk.sig",
+              "size": 566
+            },
+            {
+              "name": "PattNG_2.4.0-P74_x86.apk",
+              "url": "https://github.com/patterniha/PattNG/releases/download/2.4.0-P74/PattNG_2.4.0-P74_x86.apk",
+              "size": 56426497
+            },
+            {
+              "name": "PattNG_2.4.0-P74_x86.apk.sig",
+              "url": "https://github.com/patterniha/PattNG/releases/download/2.4.0-P74/PattNG_2.4.0-P74_x86.apk.sig",
+              "size": 566
+            },
+            {
+              "name": "PattNG_2.4.0-P74_x86_64.apk",
+              "url": "https://github.com/patterniha/PattNG/releases/download/2.4.0-P74/PattNG_2.4.0-P74_x86_64.apk",
+              "size": 80339856
+            },
+            {
+              "name": "PattNG_2.4.0-P74_x86_64.apk.sig",
+              "url": "https://github.com/patterniha/PattNG/releases/download/2.4.0-P74/PattNG_2.4.0-P74_x86_64.apk.sig",
+              "size": 566
+            },
+            {
+              "name": "PattNG_fdroid_2.4.0-P74_arm64-v8a.apk",
+              "url": "https://github.com/patterniha/PattNG/releases/download/2.4.0-P74/PattNG_fdroid_2.4.0-P74_arm64-v8a.apk",
+              "size": 76761130
+            },
+            {
+              "name": "PattNG_fdroid_2.4.0-P74_arm64-v8a.apk.sig",
+              "url": "https://github.com/patterniha/PattNG/releases/download/2.4.0-P74/PattNG_fdroid_2.4.0-P74_arm64-v8a.apk.sig",
+              "size": 566
+            },
+            {
+              "name": "PattNG_fdroid_2.4.0-P74_armeabi-v7a.apk",
+              "url": "https://github.com/patterniha/PattNG/releases/download/2.4.0-P74/PattNG_fdroid_2.4.0-P74_armeabi-v7a.apk",
+              "size": 77346766
+            },
+            {
+              "name": "PattNG_fdroid_2.4.0-P74_armeabi-v7a.apk.sig",
+              "url": "https://github.com/patterniha/PattNG/releases/download/2.4.0-P74/PattNG_fdroid_2.4.0-P74_armeabi-v7a.apk.sig",
+              "size": 566
+            },
+            {
+              "name": "PattNG_fdroid_2.4.0-P74_universal.apk",
+              "url": "https://github.com/patterniha/PattNG/releases/download/2.4.0-P74/PattNG_fdroid_2.4.0-P74_universal.apk",
+              "size": 162728458
+            },
+            {
+              "name": "PattNG_fdroid_2.4.0-P74_universal.apk.sig",
+              "url": "https://github.com/patterniha/PattNG/releases/download/2.4.0-P74/PattNG_fdroid_2.4.0-P74_universal.apk.sig",
+              "size": 566
+            },
+            {
+              "name": "PattNG_fdroid_2.4.0-P74_x86.apk",
+              "url": "https://github.com/patterniha/PattNG/releases/download/2.4.0-P74/PattNG_fdroid_2.4.0-P74_x86.apk",
+              "size": 56425709
+            },
+            {
+              "name": "PattNG_fdroid_2.4.0-P74_x86.apk.sig",
+              "url": "https://github.com/patterniha/PattNG/releases/download/2.4.0-P74/PattNG_fdroid_2.4.0-P74_x86.apk.sig",
+              "size": 566
+            },
+            {
+              "name": "PattNG_fdroid_2.4.0-P74_x86_64.apk",
+              "url": "https://github.com/patterniha/PattNG/releases/download/2.4.0-P74/PattNG_fdroid_2.4.0-P74_x86_64.apk",
+              "size": 80339064
+            },
+            {
+              "name": "PattNG_fdroid_2.4.0-P74_x86_64.apk.sig",
+              "url": "https://github.com/patterniha/PattNG/releases/download/2.4.0-P74/PattNG_fdroid_2.4.0-P74_x86_64.apk.sig",
+              "size": 566
+            }
+          ]
+        },
         {
           "tag": "2.4.0-P73",
           "title": "PattNG v2.4.0-P73",
@@ -2644,128 +2771,6 @@
               "size": 566
             }
           ]
-        },
-        {
-          "tag": "2.3.8-P50",
-          "title": "PattNG v2.3.8-P50",
-          "published_at": "2026-09-18T02:26:31Z",
-          "prerelease": false,
-          "url": "https://github.com/patterniha/PattNG/releases/tag/2.3.8-P50",
-          "notes": ".",
-          "arm64_apks": [
-            {
-              "name": "PattNG_2.3.8-P50-fdroid_arm64-v8a.apk",
-              "url": "https://github.com/patterniha/PattNG/releases/download/2.3.8-P50/PattNG_2.3.8-P50-fdroid_arm64-v8a.apk",
-              "size": 36395565
-            },
-            {
-              "name": "PattNG_2.3.8-P50_arm64-v8a.apk",
-              "url": "https://github.com/patterniha/PattNG/releases/download/2.3.8-P50/PattNG_2.3.8-P50_arm64-v8a.apk",
-              "size": 36395397
-            }
-          ],
-          "assets": [
-            {
-              "name": "PattNG_2.3.8-P50-fdroid_arm64-v8a.apk",
-              "url": "https://github.com/patterniha/PattNG/releases/download/2.3.8-P50/PattNG_2.3.8-P50-fdroid_arm64-v8a.apk",
-              "size": 36395565
-            },
-            {
-              "name": "PattNG_2.3.8-P50-fdroid_arm64-v8a.apk.sig",
-              "url": "https://github.com/patterniha/PattNG/releases/download/2.3.8-P50/PattNG_2.3.8-P50-fdroid_arm64-v8a.apk.sig",
-              "size": 566
-            },
-            {
-              "name": "PattNG_2.3.8-P50-fdroid_armeabi-v7a.apk",
-              "url": "https://github.com/patterniha/PattNG/releases/download/2.3.8-P50/PattNG_2.3.8-P50-fdroid_armeabi-v7a.apk",
-              "size": 36164505
-            },
-            {
-              "name": "PattNG_2.3.8-P50-fdroid_armeabi-v7a.apk.sig",
-              "url": "https://github.com/patterniha/PattNG/releases/download/2.3.8-P50/PattNG_2.3.8-P50-fdroid_armeabi-v7a.apk.sig",
-              "size": 566
-            },
-            {
-              "name": "PattNG_2.3.8-P50-fdroid_universal.apk",
-              "url": "https://github.com/patterniha/PattNG/releases/download/2.3.8-P50/PattNG_2.3.8-P50-fdroid_universal.apk",
-              "size": 84721209
-            },
-            {
-              "name": "PattNG_2.3.8-P50-fdroid_universal.apk.sig",
-              "url": "https://github.com/patterniha/PattNG/releases/download/2.3.8-P50/PattNG_2.3.8-P50-fdroid_universal.apk.sig",
-              "size": 566
-            },
-            {
-              "name": "PattNG_2.3.8-P50-fdroid_x86.apk",
-              "url": "https://github.com/patterniha/PattNG/releases/download/2.3.8-P50/PattNG_2.3.8-P50-fdroid_x86.apk",
-              "size": 33888267
-            },
-            {
-              "name": "PattNG_2.3.8-P50-fdroid_x86.apk.sig",
-              "url": "https://github.com/patterniha/PattNG/releases/download/2.3.8-P50/PattNG_2.3.8-P50-fdroid_x86.apk.sig",
-              "size": 566
-            },
-            {
-              "name": "PattNG_2.3.8-P50-fdroid_x86_64.apk",
-              "url": "https://github.com/patterniha/PattNG/releases/download/2.3.8-P50/PattNG_2.3.8-P50-fdroid_x86_64.apk",
-              "size": 37714833
-            },
-            {
-              "name": "PattNG_2.3.8-P50-fdroid_x86_64.apk.sig",
-              "url": "https://github.com/patterniha/PattNG/releases/download/2.3.8-P50/PattNG_2.3.8-P50-fdroid_x86_64.apk.sig",
-              "size": 566
-            },
-            {
-              "name": "PattNG_2.3.8-P50_arm64-v8a.apk",
-              "url": "https://github.com/patterniha/PattNG/releases/download/2.3.8-P50/PattNG_2.3.8-P50_arm64-v8a.apk",
-              "size": 36395397
-            },
-            {
-              "name": "PattNG_2.3.8-P50_arm64-v8a.apk.sig",
-              "url": "https://github.com/patterniha/PattNG/releases/download/2.3.8-P50/PattNG_2.3.8-P50_arm64-v8a.apk.sig",
-              "size": 566
-            },
-            {
-              "name": "PattNG_2.3.8-P50_armeabi-v7a.apk",
-              "url": "https://github.com/patterniha/PattNG/releases/download/2.3.8-P50/PattNG_2.3.8-P50_armeabi-v7a.apk",
-              "size": 36164341
-            },
-            {
-              "name": "PattNG_2.3.8-P50_armeabi-v7a.apk.sig",
-              "url": "https://github.com/patterniha/PattNG/releases/download/2.3.8-P50/PattNG_2.3.8-P50_armeabi-v7a.apk.sig",
-              "size": 566
-            },
-            {
-              "name": "PattNG_2.3.8-P50_universal.apk",
-              "url": "https://github.com/patterniha/PattNG/releases/download/2.3.8-P50/PattNG_2.3.8-P50_universal.apk",
-              "size": 84721041
-            },
-            {
-              "name": "PattNG_2.3.8-P50_universal.apk.sig",
-              "url": "https://github.com/patterniha/PattNG/releases/download/2.3.8-P50/PattNG_2.3.8-P50_universal.apk.sig",
-              "size": 566
-            },
-            {
-              "name": "PattNG_2.3.8-P50_x86.apk",
-              "url": "https://github.com/patterniha/PattNG/releases/download/2.3.8-P50/PattNG_2.3.8-P50_x86.apk",
-              "size": 33888099
-            },
-            {
-              "name": "PattNG_2.3.8-P50_x86.apk.sig",
-              "url": "https://github.com/patterniha/PattNG/releases/download/2.3.8-P50/PattNG_2.3.8-P50_x86.apk.sig",
-              "size": 566
-            },
-            {
-              "name": "PattNG_2.3.8-P50_x86_64.apk",
-              "url": "https://github.com/patterniha/PattNG/releases/download/2.3.8-P50/PattNG_2.3.8-P50_x86_64.apk",
-              "size": 37714669
-            },
-            {
-              "name": "PattNG_2.3.8-P50_x86_64.apk.sig",
-              "url": "https://github.com/patterniha/PattNG/releases/download/2.3.8-P50/PattNG_2.3.8-P50_x86_64.apk.sig",
-              "size": 566
-            }
-          ]
         }
       ]
     },
@@ -4695,6 +4700,68 @@
       "error": null,
       "releases": [
         {
+          "tag": "0.17.70",
+          "title": "0.17.70",
+          "published_at": "2026-11-23T14:00:56Z",
+          "prerelease": false,
+          "url": "https://github.com/ExclaveNetwork/Exclave/releases/tag/0.17.70",
+          "notes": "- Fix regressions introduced in the previous version.\r\n- Change the name of the Quick Settings tile to app name.",
+          "arm64_apks": [
+            {
+              "name": "Exclave-0.17.70-arm64-v8a.apk",
+              "url": "https://github.com/ExclaveNetwork/Exclave/releases/download/0.17.70/Exclave-0.17.70-arm64-v8a.apk",
+              "size": 25468256
+            },
+            {
+              "name": "Exclave-0.17.70-legacy-arm64-v8a.apk",
+              "url": "https://github.com/ExclaveNetwork/Exclave/releases/download/0.17.70/Exclave-0.17.70-legacy-arm64-v8a.apk",
+              "size": 25416395
+            }
+          ],
+          "assets": [
+            {
+              "name": "Exclave-0.17.70-arm64-v8a.apk",
+              "url": "https://github.com/ExclaveNetwork/Exclave/releases/download/0.17.70/Exclave-0.17.70-arm64-v8a.apk",
+              "size": 25468256
+            },
+            {
+              "name": "Exclave-0.17.70-armeabi-v7a.apk",
+              "url": "https://github.com/ExclaveNetwork/Exclave/releases/download/0.17.70/Exclave-0.17.70-armeabi-v7a.apk",
+              "size": 26137858
+            },
+            {
+              "name": "Exclave-0.17.70-legacy-arm64-v8a.apk",
+              "url": "https://github.com/ExclaveNetwork/Exclave/releases/download/0.17.70/Exclave-0.17.70-legacy-arm64-v8a.apk",
+              "size": 25416395
+            },
+            {
+              "name": "Exclave-0.17.70-legacy-armeabi-v7a.apk",
+              "url": "https://github.com/ExclaveNetwork/Exclave/releases/download/0.17.70/Exclave-0.17.70-legacy-armeabi-v7a.apk",
+              "size": 26085069
+            },
+            {
+              "name": "Exclave-0.17.70-legacy-x86.apk",
+              "url": "https://github.com/ExclaveNetwork/Exclave/releases/download/0.17.70/Exclave-0.17.70-legacy-x86.apk",
+              "size": 27317258
+            },
+            {
+              "name": "Exclave-0.17.70-legacy-x86_64.apk",
+              "url": "https://github.com/ExclaveNetwork/Exclave/releases/download/0.17.70/Exclave-0.17.70-legacy-x86_64.apk",
+              "size": 26702885
+            },
+            {
+              "name": "Exclave-0.17.70-x86.apk",
+              "url": "https://github.com/ExclaveNetwork/Exclave/releases/download/0.17.70/Exclave-0.17.70-x86.apk",
+              "size": 27370474
+            },
+            {
+              "name": "Exclave-0.17.70-x86_64.apk",
+              "url": "https://github.com/ExclaveNetwork/Exclave/releases/download/0.17.70/Exclave-0.17.70-x86_64.apk",
+              "size": 26753943
+            }
+          ]
+        },
+        {
           "tag": "0.17.69",
           "title": "0.17.69",
           "published_at": "2026-11-22T13:51:23Z",
@@ -5871,68 +5938,6 @@
               "size": 25944989
             }
           ]
-        },
-        {
-          "tag": "0.17.50",
-          "title": "0.17.50",
-          "published_at": "2026-08-15T11:21:20Z",
-          "prerelease": false,
-          "url": "https://github.com/ExclaveNetwork/Exclave/releases/tag/0.17.50",
-          "notes": "Fix the import and export of VLESS with encryption and vision and \"transport\" enabled.",
-          "arm64_apks": [
-            {
-              "name": "Exclave-0.17.50-arm64-v8a.apk",
-              "url": "https://github.com/ExclaveNetwork/Exclave/releases/download/0.17.50/Exclave-0.17.50-arm64-v8a.apk",
-              "size": 24785608
-            },
-            {
-              "name": "Exclave-0.17.50-legacy-arm64-v8a.apk",
-              "url": "https://github.com/ExclaveNetwork/Exclave/releases/download/0.17.50/Exclave-0.17.50-legacy-arm64-v8a.apk",
-              "size": 24563600
-            }
-          ],
-          "assets": [
-            {
-              "name": "Exclave-0.17.50-arm64-v8a.apk",
-              "url": "https://github.com/ExclaveNetwork/Exclave/releases/download/0.17.50/Exclave-0.17.50-arm64-v8a.apk",
-              "size": 24785608
-            },
-            {
-              "name": "Exclave-0.17.50-armeabi-v7a.apk",
-              "url": "https://github.com/ExclaveNetwork/Exclave/releases/download/0.17.50/Exclave-0.17.50-armeabi-v7a.apk",
-              "size": 25393420
-            },
-            {
-              "name": "Exclave-0.17.50-legacy-arm64-v8a.apk",
-              "url": "https://github.com/ExclaveNetwork/Exclave/releases/download/0.17.50/Exclave-0.17.50-legacy-arm64-v8a.apk",
-              "size": 24563600
-            },
-            {
-              "name": "Exclave-0.17.50-legacy-armeabi-v7a.apk",
-              "url": "https://github.com/ExclaveNetwork/Exclave/releases/download/0.17.50/Exclave-0.17.50-legacy-armeabi-v7a.apk",
-              "size": 25170521
-            },
-            {
-              "name": "Exclave-0.17.50-legacy-x86.apk",
-              "url": "https://github.com/ExclaveNetwork/Exclave/releases/download/0.17.50/Exclave-0.17.50-legacy-x86.apk",
-              "size": 26370899
-            },
-            {
-              "name": "Exclave-0.17.50-legacy-x86_64.apk",
-              "url": "https://github.com/ExclaveNetwork/Exclave/releases/download/0.17.50/Exclave-0.17.50-legacy-x86_64.apk",
-              "size": 25724477
-            },
-            {
-              "name": "Exclave-0.17.50-x86.apk",
-              "url": "https://github.com/ExclaveNetwork/Exclave/releases/download/0.17.50/Exclave-0.17.50-x86.apk",
-              "size": 26592798
-            },
-            {
-              "name": "Exclave-0.17.50-x86_64.apk",
-              "url": "https://github.com/ExclaveNetwork/Exclave/releases/download/0.17.50/Exclave-0.17.50-x86_64.apk",
-              "size": 25945676
-            }
-          ]
         }
       ]
     },
@@ -6785,6 +6790,290 @@
       "installed_version": "2.6.75",
       "error": null,
       "releases": [
+        {
+          "tag": "v2.6.90",
+          "title": "Shroudly v2.6.90",
+          "published_at": "2026-11-23T18:44:02Z",
+          "prerelease": false,
+          "url": "https://github.com/umutxyp/Shroudly/releases/tag/v2.6.90",
+          "notes": "## Shroudly 2.6.90\n\n**The last way out (Tor) is off until you allow it, on every system and in every store edition.**\n\n### Windows, macOS, Linux, Android, Android TV, the Mac App Store app\n- \"When nothing else works: the Tor network\" no longer shows on from the first start. Tor never carried anything before the user said yes, but the switch looked as if it was on; it now shows what the user chose.\n- Nothing is lost for anyone who chose before: with no stored choice, the switch is on only where Tor was allowed earlier (\"Use Tor\" on the card, or the switch turned on).\n- Everyone else is asked when a site that no technique opens needs Tor, as after a \"No\": at most once a day for the same site, and the answer is kept.\n- With the switch off, a problem report is no longer sent through Tor by itself on networks that block Cloudflare; with it on, it is sent as before.\n- iPhone, iPad and Apple TV have no Tor; nothing changes there.\n\n### Tests\n- `tests/net/tor-ask.test.js` checks that no part of the desktop app takes \"on\" when nothing is stored, that the switch shows on only when it is on, that a report says \"off\" for nothing stored, that Android (`TorRoute.enabled`) and Apple (`Settings`) fall back to the earlier \"allowed\" answer, and that with the switch off a site nothing opens is asked about. Apple's own tests (`TorRouteTests`, `ReportTests`) and Android's unit tests pass with the new default.\n\n### Downloads\n| OS | Intel / AMD (x64) | ARM |\n|----|-------------------|-----|\n| Windows 10 / 11 | `Shroudly-2.6.90-Windows-x64-Setup.exe` · 32-bit: `Shroudly-2.6.90-Windows-ia32-Setup.exe` | `Shroudly-2.6.90-Windows-arm64-Setup.exe` |\n| **Windows 7 / 8 / 8.1** | `Shroudly-2.6.90-Windows7-8-Setup.exe` (32- and 64-bit) | |\n| macOS 12+ | `Shroudly-2.6.90-macOS-x64.dmg` (Intel) | `Shroudly-2.6.90-macOS-arm64.dmg` (Apple Silicon) |\n| Debian / Ubuntu | `Shroudly-2.6.90-Linux-amd64.deb` | `Shroudly-2.6.90-Linux-arm64.AppImage` |\n| Arch / Manjaro | `Shroudly-2.6.90-Linux-x64.pacman` | AppImage |\n| Fedora / openSUSE / RHEL | `Shroudly-2.6.90-Linux-x86_64.rpm` | AppImage |\n| Any distribution | `Shroudly-2.6.90-Linux-x86_64.AppImage` | `Shroudly-2.6.90-Linux-arm64.AppImage` |\n| 32-bit ARM (armhf) | | `Shroudly-2.6.90-Linux-armv7l.AppImage` · `Shroudly-2.6.90-Linux-armv7l.deb` |\n| **Android 8+, Android TV, Google TV** | `Shroudly-2.6.90-Android.apk` (one APK for every device) | same |\n| Android, smaller | `Shroudly-2.6.90-Android-arm64.apk` (64-bit ARM phones only, most of them) · `Shroudly-2.6.90-Android-lite.apk` (every phone, without Tor) | same |\n| **iPhone / iPad (iOS 16+), Mac, Apple TV (tvOS 17+)** | | App Store: Mac 2.6.87 (2.6.90 in review), iPhone/iPad 2.6.82 in review; 2.6.90 with the TestFlight testers; `Shroudly-2.6.90-iOS.ipa` for TrollStore |\n| **Google Play** (Android, Android TV) | [Get it on Google Play](https://play.google.com/store/apps/details?id=me.codeshare.shroudly) | same |\n| **A Linux server** | [one line](https://github.com/umutxyp/Shroudly#on-a-server) | same |\n",
+          "arm64_apks": [
+            {
+              "name": "Shroudly-2.6.90-Android-arm64.apk",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.90/Shroudly-2.6.90-Android-arm64.apk",
+              "size": 12164577
+            }
+          ],
+          "assets": [
+            {
+              "name": "latest-linux-arm.yml",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.90/latest-linux-arm.yml",
+              "size": 559
+            },
+            {
+              "name": "latest-linux-arm64.yml",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.90/latest-linux-arm64.yml",
+              "size": 395
+            },
+            {
+              "name": "latest-linux.yml",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.90/latest-linux.yml",
+              "size": 882
+            },
+            {
+              "name": "latest-mac.yml",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.90/latest-mac.yml",
+              "size": 518
+            },
+            {
+              "name": "latest.yml",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.90/latest.yml",
+              "size": 651
+            },
+            {
+              "name": "legacy.yml",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.90/legacy.yml",
+              "size": 350
+            },
+            {
+              "name": "Shroudly-2.6.90-Android-arm64.apk",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.90/Shroudly-2.6.90-Android-arm64.apk",
+              "size": 12164577
+            },
+            {
+              "name": "Shroudly-2.6.90-Android-lite.apk",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.90/Shroudly-2.6.90-Android-lite.apk",
+              "size": 3388958
+            },
+            {
+              "name": "Shroudly-2.6.90-Android.apk",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.90/Shroudly-2.6.90-Android.apk",
+              "size": 32089885
+            },
+            {
+              "name": "Shroudly-2.6.90-iOS.ipa",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.90/Shroudly-2.6.90-iOS.ipa",
+              "size": 8438804
+            },
+            {
+              "name": "Shroudly-2.6.90-Linux-amd64.deb",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.90/Shroudly-2.6.90-Linux-amd64.deb",
+              "size": 97778072
+            },
+            {
+              "name": "Shroudly-2.6.90-Linux-arm64.AppImage",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.90/Shroudly-2.6.90-Linux-arm64.AppImage",
+              "size": 116052902
+            },
+            {
+              "name": "Shroudly-2.6.90-Linux-armv7l.AppImage",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.90/Shroudly-2.6.90-Linux-armv7l.AppImage",
+              "size": 115189393
+            },
+            {
+              "name": "Shroudly-2.6.90-Linux-armv7l.deb",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.90/Shroudly-2.6.90-Linux-armv7l.deb",
+              "size": 95658104
+            },
+            {
+              "name": "Shroudly-2.6.90-Linux-x64.pacman",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.90/Shroudly-2.6.90-Linux-x64.pacman",
+              "size": 89347792
+            },
+            {
+              "name": "Shroudly-2.6.90-Linux-x86_64.AppImage",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.90/Shroudly-2.6.90-Linux-x86_64.AppImage",
+              "size": 115931155
+            },
+            {
+              "name": "Shroudly-2.6.90-Linux-x86_64.rpm",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.90/Shroudly-2.6.90-Linux-x86_64.rpm",
+              "size": 85573155
+            },
+            {
+              "name": "Shroudly-2.6.90-macOS-arm64.dmg",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.90/Shroudly-2.6.90-macOS-arm64.dmg",
+              "size": 116473012
+            },
+            {
+              "name": "Shroudly-2.6.90-macOS-arm64.zip",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.90/Shroudly-2.6.90-macOS-arm64.zip",
+              "size": 116259998
+            },
+            {
+              "name": "Shroudly-2.6.90-macOS-x64.dmg",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.90/Shroudly-2.6.90-macOS-x64.dmg",
+              "size": 123112852
+            },
+            {
+              "name": "Shroudly-2.6.90-macOS-x64.zip",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.90/Shroudly-2.6.90-macOS-x64.zip",
+              "size": 122940439
+            },
+            {
+              "name": "Shroudly-2.6.90-Windows-arm64-Setup.exe",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.90/Shroudly-2.6.90-Windows-arm64-Setup.exe",
+              "size": 94713684
+            },
+            {
+              "name": "Shroudly-2.6.90-Windows-ia32-Setup.exe",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.90/Shroudly-2.6.90-Windows-ia32-Setup.exe",
+              "size": 86979975
+            },
+            {
+              "name": "Shroudly-2.6.90-Windows-x64-Setup.exe",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.90/Shroudly-2.6.90-Windows-x64-Setup.exe",
+              "size": 99389357
+            },
+            {
+              "name": "Shroudly-2.6.90-Windows7-8-Setup.exe",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.90/Shroudly-2.6.90-Windows7-8-Setup.exe",
+              "size": 132800491
+            }
+          ]
+        },
+        {
+          "tag": "v2.6.89",
+          "title": "Shroudly v2.6.89",
+          "published_at": "2026-11-22T23:40:52Z",
+          "prerelease": false,
+          "url": "https://github.com/umutxyp/Shroudly/releases/tag/v2.6.89",
+          "notes": "## Shroudly 2.6.89\n\n**\"Your own server\" takes VLESS and Trojan links, on every platform.**\n\n### Every platform (Windows, macOS, Linux, Android, Android TV, iPhone, iPad, the Mac App Store app, Apple TV)\n- Your own server now takes `vless://` and `trojan://` links, the kinds people in Iran pass around, where Shadowsocks is filtered by its look (asked for from Iran, with a link to a server behind a CDN). Carried over plain TCP, a WebSocket or HTTPUpgrade, with TLS or without; `host`, `sni`, `path` and `alpn` are read from the link, and Xray's `?ed=` note is taken off the path. Shroudly has no servers of its own: the server is the user's, as with Shadowsocks.\n- A link that asks for something not carried is told so by its name, never tried another way: REALITY, the XTLS Vision flow, gRPC, XHTTP, mKCP, VLESS's own encryption.\n- The server's certificate is checked for the name the link gives (its `sni`, or its `Host`, or its address). A certificate that is not valid for it is refused and said as that. `allowInsecure=1` is followed on the desktop only; on phones, tablets and Apple devices such a link is refused with its name.\n- The saved link is shown with its key covered, and the log never has it.\n\n### Windows, macOS, Linux (updates)\n- An update (about 100 MB) is no longer downloaded by itself while the Roblox player is open or a full-screen program is in front. On a thin line it took the whole line for minutes, and a game's delay went from tens of milliseconds to seconds \"out of nowhere\" (a report from an ADSL line, 13 Mbit/s down). It is looked at again at each check, so the download comes once the game is over; \"Check for updates\" by hand downloads at once, as before.\n\n### Every platform (the engine)\n- Plain HTTP: the technique that rewrites the Host header writes it in mixed case (`hOsT:`) instead of all lower case (`host:`). A filter that looks for `Host:` often looks for `host:` too, which every HTTP/2 client writes: Vietnam's resets both and lets the mixed case through (measured from a Vietnamese line on 2026-11-22, where the technique opened none of four blocked sites before and all four after). Every one of 96 large web servers answered the mixed case exactly as the usual one.\n\n### Tests\n- The headers are the same bytes on every platform (`tests/net/fixtures/vless-vectors.json`, read by the desktop's, Android's and Apple's tests). Each platform carries connections through a server of each kind written in its tests (TCP, WebSocket, HTTPUpgrade; the desktop and Android also with TLS); Apple's TLS is tried against a real site by its name, by its address with the name in `sni`, and under a name its certificate is not for.\n- The Windows lab's stand-in DNS forwarder takes a port the system picks and is waited for: on a port of the lab's choosing it sometimes never came up, and the DNS gate was reported as not answering.\n\n### Downloads\n| OS | Intel / AMD (x64) | ARM |\n|----|-------------------|-----|\n| Windows 10 / 11 | `Shroudly-2.6.89-Windows-x64-Setup.exe` · 32-bit: `Shroudly-2.6.89-Windows-ia32-Setup.exe` | `Shroudly-2.6.89-Windows-arm64-Setup.exe` |\n| **Windows 7 / 8 / 8.1** | `Shroudly-2.6.89-Windows7-8-Setup.exe` (32- and 64-bit) | |\n| macOS 12+ | `Shroudly-2.6.89-macOS-x64.dmg` (Intel) | `Shroudly-2.6.89-macOS-arm64.dmg` (Apple Silicon) |\n| Debian / Ubuntu | `Shroudly-2.6.89-Linux-amd64.deb` | `Shroudly-2.6.89-Linux-arm64.AppImage` |\n| Arch / Manjaro | `Shroudly-2.6.89-Linux-x64.pacman` | AppImage |\n| Fedora / openSUSE / RHEL | `Shroudly-2.6.89-Linux-x86_64.rpm` | AppImage |\n| Any distribution | `Shroudly-2.6.89-Linux-x86_64.AppImage` | `Shroudly-2.6.89-Linux-arm64.AppImage` |\n| 32-bit ARM (armhf) | | `Shroudly-2.6.89-Linux-armv7l.AppImage` · `Shroudly-2.6.89-Linux-armv7l.deb` |\n| **Android 8+, Android TV, Google TV** | `Shroudly-2.6.89-Android.apk` (one APK for every device) | same |\n| Android, smaller | `Shroudly-2.6.89-Android-arm64.apk` (64-bit ARM phones only, most of them) · `Shroudly-2.6.89-Android-lite.apk` (every phone, without Tor) | same |\n| **iPhone / iPad (iOS 16+), Mac, Apple TV (tvOS 17+)** | | App Store: Mac 2.6.84 (2.6.87 in review), iPhone/iPad 2.6.82 in review; 2.6.89 with the TestFlight testers; `Shroudly-2.6.89-iOS.ipa` for TrollStore |\n| **Google Play** (Android, Android TV) | [Get it on Google Play](https://play.google.com/store/apps/details?id=me.codeshare.shroudly) | same |\n| **A Linux server** | [one line](https://github.com/umutxyp/Shroudly#on-a-server) | same |\n",
+          "arm64_apks": [
+            {
+              "name": "Shroudly-2.6.89-Android-arm64.apk",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.89/Shroudly-2.6.89-Android-arm64.apk",
+              "size": 12165697
+            }
+          ],
+          "assets": [
+            {
+              "name": "latest-linux-arm.yml",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.89/latest-linux-arm.yml",
+              "size": 559
+            },
+            {
+              "name": "latest-linux-arm64.yml",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.89/latest-linux-arm64.yml",
+              "size": 395
+            },
+            {
+              "name": "latest-linux.yml",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.89/latest-linux.yml",
+              "size": 882
+            },
+            {
+              "name": "latest-mac.yml",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.89/latest-mac.yml",
+              "size": 518
+            },
+            {
+              "name": "latest.yml",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.89/latest.yml",
+              "size": 651
+            },
+            {
+              "name": "legacy.yml",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.89/legacy.yml",
+              "size": 350
+            },
+            {
+              "name": "Shroudly-2.6.89-Android-arm64.apk",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.89/Shroudly-2.6.89-Android-arm64.apk",
+              "size": 12165697
+            },
+            {
+              "name": "Shroudly-2.6.89-Android-lite.apk",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.89/Shroudly-2.6.89-Android-lite.apk",
+              "size": 3390038
+            },
+            {
+              "name": "Shroudly-2.6.89-Android.apk",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.89/Shroudly-2.6.89-Android.apk",
+              "size": 32090953
+            },
+            {
+              "name": "Shroudly-2.6.89-iOS.ipa",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.89/Shroudly-2.6.89-iOS.ipa",
+              "size": 8435065
+            },
+            {
+              "name": "Shroudly-2.6.89-Linux-amd64.deb",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.89/Shroudly-2.6.89-Linux-amd64.deb",
+              "size": 97756500
+            },
+            {
+              "name": "Shroudly-2.6.89-Linux-arm64.AppImage",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.89/Shroudly-2.6.89-Linux-arm64.AppImage",
+              "size": 116056836
+            },
+            {
+              "name": "Shroudly-2.6.89-Linux-armv7l.AppImage",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.89/Shroudly-2.6.89-Linux-armv7l.AppImage",
+              "size": 115189476
+            },
+            {
+              "name": "Shroudly-2.6.89-Linux-armv7l.deb",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.89/Shroudly-2.6.89-Linux-armv7l.deb",
+              "size": 95637140
+            },
+            {
+              "name": "Shroudly-2.6.89-Linux-x64.pacman",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.89/Shroudly-2.6.89-Linux-x64.pacman",
+              "size": 89328396
+            },
+            {
+              "name": "Shroudly-2.6.89-Linux-x86_64.AppImage",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.89/Shroudly-2.6.89-Linux-x86_64.AppImage",
+              "size": 115931171
+            },
+            {
+              "name": "Shroudly-2.6.89-Linux-x86_64.rpm",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.89/Shroudly-2.6.89-Linux-x86_64.rpm",
+              "size": 85571767
+            },
+            {
+              "name": "Shroudly-2.6.89-macOS-arm64.dmg",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.89/Shroudly-2.6.89-macOS-arm64.dmg",
+              "size": 116474054
+            },
+            {
+              "name": "Shroudly-2.6.89-macOS-arm64.zip",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.89/Shroudly-2.6.89-macOS-arm64.zip",
+              "size": 116262437
+            },
+            {
+              "name": "Shroudly-2.6.89-macOS-x64.dmg",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.89/Shroudly-2.6.89-macOS-x64.dmg",
+              "size": 123113022
+            },
+            {
+              "name": "Shroudly-2.6.89-macOS-x64.zip",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.89/Shroudly-2.6.89-macOS-x64.zip",
+              "size": 122942849
+            },
+            {
+              "name": "Shroudly-2.6.89-Windows-arm64-Setup.exe",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.89/Shroudly-2.6.89-Windows-arm64-Setup.exe",
+              "size": 94714433
+            },
+            {
+              "name": "Shroudly-2.6.89-Windows-ia32-Setup.exe",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.89/Shroudly-2.6.89-Windows-ia32-Setup.exe",
+              "size": 86976541
+            },
+            {
+              "name": "Shroudly-2.6.89-Windows-x64-Setup.exe",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.89/Shroudly-2.6.89-Windows-x64-Setup.exe",
+              "size": 99392046
+            },
+            {
+              "name": "Shroudly-2.6.89-Windows7-8-Setup.exe",
+              "url": "https://github.com/umutxyp/Shroudly/releases/download/v2.6.89/Shroudly-2.6.89-Windows7-8-Setup.exe",
+              "size": 132791616
+            }
+          ]
+        },
         {
           "tag": "v2.6.88",
           "title": "Shroudly v2.6.88",
@@ -9254,78 +9543,6 @@
               "size": 129185433
             }
           ]
-        },
-        {
-          "tag": "tor-16.0",
-          "title": "Tor 16.0 (Tor Project builds, mirror)",
-          "published_at": "2026-11-11T22:59:04Z",
-          "prerelease": true,
-          "url": "https://github.com/umutxyp/Shroudly/releases/tag/tor-16.0",
-          "notes": "The Tor Project's own Tor Expert Bundle 16.0, unchanged, for networks that cut torproject.org (Russia). Shroudly checks each file against the SHA-256 pinned in electron/tor-files.js before using it, so only the Tor Project's file is ever used. Source: https://archive.torproject.org/tor-package-archive/torbrowser/16.0/ . Not a Shroudly release.",
-          "arm64_apks": [],
-          "assets": [
-            {
-              "name": "tor-expert-bundle-android-aarch64-16.0.tar.gz",
-              "url": "https://github.com/umutxyp/Shroudly/releases/download/tor-16.0/tor-expert-bundle-android-aarch64-16.0.tar.gz",
-              "size": 19595731
-            },
-            {
-              "name": "tor-expert-bundle-android-armv7-16.0.tar.gz",
-              "url": "https://github.com/umutxyp/Shroudly/releases/download/tor-16.0/tor-expert-bundle-android-armv7-16.0.tar.gz",
-              "size": 20081427
-            },
-            {
-              "name": "tor-expert-bundle-android-x86_64-16.0.tar.gz",
-              "url": "https://github.com/umutxyp/Shroudly/releases/download/tor-16.0/tor-expert-bundle-android-x86_64-16.0.tar.gz",
-              "size": 14896800
-            },
-            {
-              "name": "tor-expert-bundle-linux-aarch64-16.0.tar.gz",
-              "url": "https://github.com/umutxyp/Shroudly/releases/download/tor-16.0/tor-expert-bundle-linux-aarch64-16.0.tar.gz",
-              "size": 33234543
-            },
-            {
-              "name": "tor-expert-bundle-linux-x86_64-16.0.tar.gz",
-              "url": "https://github.com/umutxyp/Shroudly/releases/download/tor-16.0/tor-expert-bundle-linux-x86_64-16.0.tar.gz",
-              "size": 33506382
-            },
-            {
-              "name": "tor-expert-bundle-macos-aarch64-16.0.tar.gz",
-              "url": "https://github.com/umutxyp/Shroudly/releases/download/tor-16.0/tor-expert-bundle-macos-aarch64-16.0.tar.gz",
-              "size": 19004733
-            },
-            {
-              "name": "tor-expert-bundle-macos-x86_64-16.0.tar.gz",
-              "url": "https://github.com/umutxyp/Shroudly/releases/download/tor-16.0/tor-expert-bundle-macos-x86_64-16.0.tar.gz",
-              "size": 19556770
-            },
-            {
-              "name": "tor-expert-bundle-windows-i686-16.0.tar.gz",
-              "url": "https://github.com/umutxyp/Shroudly/releases/download/tor-16.0/tor-expert-bundle-windows-i686-16.0.tar.gz",
-              "size": 22705212
-            },
-            {
-              "name": "tor-expert-bundle-windows-x86_64-16.0.tar.gz",
-              "url": "https://github.com/umutxyp/Shroudly/releases/download/tor-16.0/tor-expert-bundle-windows-x86_64-16.0.tar.gz",
-              "size": 23537200
-            }
-          ]
-        },
-        {
-          "tag": "appletv-review",
-          "title": "Apple TV walkthrough for App Review (2.6.73)",
-          "published_at": "2026-11-10T21:45:06Z",
-          "prerelease": true,
-          "url": "https://github.com/umutxyp/Shroudly/releases/tag/appletv-review",
-          "notes": "A walkthrough of every screen of Shroudly 2.6.73 for Apple TV, for Apple's App Review. Recorded in the tvOS Simulator: there is no physical Apple TV here. Not a release of the app; the downloads are under the latest release.",
-          "arm64_apks": [],
-          "assets": [
-            {
-              "name": "Shroudly-2.6.73-AppleTV-review.mp4",
-              "url": "https://github.com/umutxyp/Shroudly/releases/download/appletv-review/Shroudly-2.6.73-AppleTV-review.mp4",
-              "size": 5069423
-            }
-          ]
         }
       ]
     },
@@ -10538,6 +10755,38 @@
       "tag": "v9.0-(1403-5-30)",
       "url": "https://github.com/GFW-knocker/MahsaNG/releases/tag/v9.0-(1403-5-30)",
       "first_seen": "2026-11-22T17:18:30.893851+00:00",
+      "prerelease": false
+    },
+    {
+      "app": "PattNG",
+      "repo": "patterniha/PattNG",
+      "tag": "2.4.0-P74",
+      "url": "https://github.com/patterniha/PattNG/releases/tag/2.4.0-P74",
+      "first_seen": "2026-11-23T21:38:09.168363+00:00",
+      "prerelease": false
+    },
+    {
+      "app": "Exclave",
+      "repo": "ExclaveNetwork/Exclave",
+      "tag": "0.17.70",
+      "url": "https://github.com/ExclaveNetwork/Exclave/releases/tag/0.17.70",
+      "first_seen": "2026-11-23T21:38:11.303555+00:00",
+      "prerelease": false
+    },
+    {
+      "app": "Shroudly",
+      "repo": "umutxyp/Shroudly",
+      "tag": "v2.6.90",
+      "url": "https://github.com/umutxyp/Shroudly/releases/tag/v2.6.90",
+      "first_seen": "2026-11-23T21:38:12.559132+00:00",
+      "prerelease": false
+    },
+    {
+      "app": "Shroudly",
+      "repo": "umutxyp/Shroudly",
+      "tag": "v2.6.89",
+      "url": "https://github.com/umutxyp/Shroudly/releases/tag/v2.6.89",
+      "first_seen": "2026-11-23T21:38:12.559150+00:00",
       "prerelease": false
     }
   ]
