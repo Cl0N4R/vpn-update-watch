@@ -438,5 +438,29 @@
     "url": "https://github.com/umutxyp/Shroudly/releases/tag/v2.6.89",
     "first_seen": "2026-11-23T21:38:12.559150+00:00",
     "prerelease": false
+  },
+  "patterniha/PattNG@2.4.1-P76": {
+    "app": "PattNG",
+    "repo": "patterniha/PattNG",
+    "tag": "2.4.1-P76",
+    "url": "https://github.com/patterniha/PattNG/releases/tag/2.4.1-P76",
+    "first_seen": "2026-11-25T19:31:04.460477+00:00",
+    "prerelease": false
+  },
+  "patterniha/PattNG@2.4.1-P75": {
+    "app": "PattNG",
+    "repo": "patterniha/PattNG",
+    "tag": "2.4.1-P75",
+    "url": "https://github.com/patterniha/PattNG/releases/tag/2.4.1-P75",
+    "first_seen": "2026-11-25T19:31:04.460499+00:00",
+    "prerelease": false
+  },
+  "KaringX/karing@v1.2.27.3000": {
+    "app": "Karing",
+    "repo": "KaringX/karing",
+    "tag": "v1.2.27.3000",
+    "url": "https://github.com/KaringX/karing/releases/tag/v1.2.27.3000",
+    "first_seen": "2026-11-25T19:31:04.945858+00:00",
+    "prerelease": true
   }
 }
