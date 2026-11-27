@@ -1,10 +1,68 @@
 # گزارش پایش نسخه‌ها
 
-آخرین بررسی (UTC): 2026-11-26T19:13:41.945140+00:00
+آخرین بررسی (UTC): 2026-11-27T19:08:04.864059+00:00
 
 > فقط داده‌های رسمی GitHub گزارش می‌شود؛ این ابزار درباره نصب یا ارتقا توصیه نمی‌کند.
 
 ## BPB VPN — `bia-pain-bache/BPB-VPN`
+### BPB 1.3.2 (Stable)
+- Tag: `v1.3.2`
+- تاریخ انتشار: 2026-11-27T13:56:07Z
+- صفحه رسمی: https://github.com/bia-pain-bache/BPB-VPN/releases/tag/v1.3.2
+- APKهای ARM64:
+  - [bpb-1.3.2-arm64-v8a.apk](https://github.com/bia-pain-bache/BPB-VPN/releases/download/v1.3.2/bpb-1.3.2-arm64-v8a.apk)
+
+**یادداشت توسعه‌دهنده:**
+# 💡 Bug fixes and improvements
+
+- Revised SSH connection failures.
+- Improved SSH error handling.
+- Improved SSH security by host key pinning and verification.
+- Handling SSH host key changes.
+- Added SSH key validatoin.
+- Updated Tor to 4.9.17
+- Updated Psiphon tunnel core to v2.0.43
+- Updated UI.
+- Refined My IP, Added ISP to connection metrics.
+- Enabled My IP while not connected (local ISP).
+- Changed LAN IP to **Share proxy** on homepage.
+- Scanner now fetches assets from core instead of bundling IP CIDRs.
+- The app not reports any failures and prevent user to connect VLESS if the worker scripts' update fails.
+- Fixed **Domain Fronting + Psiphon** bug; much faster connection now.
+
+**Full Changelog**: https://github.com/bia-pain-bache/BPB-VPN/compare/v1.3.0...v1.3.2
+
+![GitHub Downloads (all assets, specific tag)](https://img.shields.io/github/downloads/bia-pain-bache/BPB-VPN/v1.3.2/total)
+
+
+### BPB 1.3.1 (Pre-release)
+- Tag: `v1.3.1`
+- تاریخ انتشار: 2026-11-26T21:04:26Z
+- صفحه رسمی: https://github.com/bia-pain-bache/BPB-VPN/releases/tag/v1.3.1
+- APKهای ARM64:
+  - [bpb-1.3.1-arm64-v8a.apk](https://github.com/bia-pain-bache/BPB-VPN/releases/download/v1.3.1/bpb-1.3.1-arm64-v8a.apk)
+
+**یادداشت توسعه‌دهنده:**
+# 💡 Bug fixes and improvements
+
+- Revised SSH connection failures.
+- Improved SSH error handling.
+- Improved SSH security by host key pinning and verification.
+- Handling SSH host key changes.
+- Added SSH key validatoin.
+- Updated Tor to 4.9.17
+- Updated Psiphon tunnel core to v2.0.43
+- Updated UI.
+- Refined My IP, Added ISP to connection metrics.
+- Enabled My IP while not connected (local ISP).
+- Changed LAN IP to **Share proxy** on homepage.
+- Fixed **Domain Fronting + Psiphon** bug; much faster connection now.
+
+**Full Changelog**: https://github.com/bia-pain-bache/BPB-VPN/compare/v1.3.0...v1.3.1
+
+![GitHub Downloads (all assets, specific tag)](https://img.shields.io/github/downloads/bia-pain-bache/BPB-VPN/v1.3.1/total)
+
+
 ### BPB 1.3.0 (Stable)
 - Tag: `v1.3.0`
 - تاریخ انتشار: 2026-11-21T15:03:35Z
@@ -101,97 +159,6 @@ The Remote DNS only accepts IPv4 and IPv6 now to boost up performance specially 
 ![GitHub Downloads (all assets, specific tag)](https://img.shields.io/github/downloads/bia-pain-bache/BPB-VPN/v1.2.1/total)
 
 
-### BPB 1.2.0 (Stable)
-- Tag: `v1.2.0`
-- تاریخ انتشار: 2026-11-15T14:18:14Z
-- صفحه رسمی: https://github.com/bia-pain-bache/BPB-VPN/releases/tag/v1.2.0
-- APKهای ARM64:
-  - [bpb-1.2.0-arm64-v8a.apk](https://github.com/bia-pain-bache/BPB-VPN/releases/download/v1.2.0/bpb-1.2.0-arm64-v8a.apk)
-
-**یادداشت توسعه‌دهنده:**
-# 🎉 BPB VPN is here
-
-Welcome to BPB VPN, a companion app designed to make setting up and using the BPB Panel and Wizard simpler and more approachable. From getting started to managing your VPN connection and even combining it with third-party proxies like Tor and Psiphon, my goal is to make the experience easier to follow and less of a hassle.
-
-## 🌟 BPB Cloudflare scanners
-
-BPB is now equipped with specific Cloudflare scanners for all protocol! The scanner follows user settings for protocol i.e. Fingerprint, SNI, IP version, Custom domain, Transport and is even capable of scanning with Fragment and UDP Obfuscation (ECH is excluded). Please note that the more `Probes count` you set, the better IPs you get, but the downside is the scanner consumes more worker requests during VLESS scanning.
-
-## 🌟 Serverless DNS mode
-
-We've already seen DNS clients like `Rethink`, now assume you have a full DNS client with traffic splitting and even DNS tester!
-A very helpful feature which helps you through DNS disruptions supporting UDP,TCP,DoH and DoQ servers. You have your Workers and Pages DoH as private servers (using Cloudflare Security DoH as backend) along with some well-known public DNS servers of all types.
-
-The lovely part of this feature is **Fake SNI servers**, it uses Cloudflare, Google and Quad9 DoH servers with a Fake whitelisted SNI.
-
-## 💡 Bug fixes and Improvements
-
-- Added **Snowflake AMP** to Tor modes.
-- Added **Routing Strategy**.
-- **Connection behaviour:** The app now checks the actual connection before updating the UI. As a result, connections that are not working remain in the `Connecting` state, unlike the usual behavior in v2rayNG and similar apps.
-- Renamed **Serverless Fragment** to **Serverless Packet**, since it also supports UDP obfuscation.
-- Updated the default **UDP obfuscation** noises to simulate the AmneziaWG obfuscation.
-- Added **QUIC**, **DNS query**, **STUN Binding** mimic presets to UDP noises, along with a **None** mode to apply custom packet for **Expression** UDP noise mode.
-- Changed the default Warp **Reserved bytes** value to disabled to reduce protocol fingerprinting on some ISPs.
-- Added bilingual Github issue templates in Farsi and English. It worth mentioning that all BPB projects are handled by one person, so please only report technical bugs and misconfigurations (not the app performance on your ISP) with all requested info, issue gets closed ASAP otherwise.
-- Updated **Reset settings** behaviour so that clean IPs and endpoints are preserved.
-- Updated the **Domain Fronting** + **Psiphon** config, it has much better performance now and tries to keep [@Patterniha](https://github.com/patterniha) template safe.
-- Updated the routing rules to block Iran firewall IPs by default.
-- Updated Xray-core to v26.11.9
-- Updated Tor to v4.9.16
-- Added ECH retries to Cloudflare API calls.
-- Added **Serverless DNS** mode supporting UDP,TCP,DoH and DoQ servers. Private servers use Cloudflare Security DoH as backend.
-- Added **Prefer IPv6** option.
-- Updated routing rules.
-- Added Fake SNI DoH feat. to DNS mode.
-- Updated Fragment default setting, for now it may works on some ISPs.
-- Fixed the BPB quick settings tile bug #9
-- Fixed UI and documentation bugs #13 #14
-
-> [!IMPORTANT]
-> Some default settings have been changed since 1.0.0 and 1.1.0, so I recommend to reset settings after this update just to be sure. Don't worry, this will preserve your clean IPs and endpoints.
-
-**Full Changelog**: https://github.com/bia-pain-bache/BPB-VPN/compare/v1.0.0...v1.2.0
-
-![GitHub Downloads (all assets, specific tag)](https://img.shields.io/github/downloads/bia-pain-bache/BPB-VPN/v1.2.0/total)
-
-
-### BPB 1.1.0 (Pre-release)
-- Tag: `v1.1.0`
-- تاریخ انتشار: 2026-11-11T15:35:25Z
-- صفحه رسمی: https://github.com/bia-pain-bache/BPB-VPN/releases/tag/v1.1.0
-- APKهای ARM64:
-  - [bpb-1.1.0-arm64-v8a.apk](https://github.com/bia-pain-bache/BPB-VPN/releases/download/v1.1.0/bpb-1.1.0-arm64-v8a.apk)
-
-**یادداشت توسعه‌دهنده:**
-# 🎉 BPB VPN is here
-
-Welcome to BPB VPN, a companion app designed to make setting up and using the BPB Panel and Wizard simpler and more approachable. From getting started to managing your VPN connection and even combining it with third-party proxies like Tor and Psiphon, my goal is to make the experience easier to follow and less of a hassle.
-
-## 🌟 BPB Cloudflare scanners
-
-BPB is now equipped with specific Cloudflare scanners for all protocol! The scanner follows user settings for protocol i.e. Fingerprint, SNI, IP version, Custom domain, Transport and is even capable of scanning with Fragment and UDP Obfuscation (ECH is excluded). Please note that the more `Probes count` you set, the better IPs you get, but the downside is the scanner consumes more worker requests during VLESS scanning.
-
-## 💡 Bug fixes and Improvements
-
-- Added **Snowflake AMP** to Tor modes.
-- Added **Routing Strategy**.
-- **Connection behaviour:** The app now checks the actual before updating the UI. As a result, connections that are not working remain in the `Connecting` state, unlike the usual behavior in v2rayNG and similar apps.
-- Renamed **Serverless Fragment** to **Serverless Packet**, since it also supports UDP obfuscation.
-- Updated the default **UDP obfuscation** noises to simulate the AmneziaWG obfuscation.
-- Added **QUIC**, **DNS query**, **STUN Binding** mimic presets to UDP noises, along with a **None** mode to apply custom packet for **Expression** UDP noise mode.
-- Changed the default Warp **Reserved bytes** value to disabled to reduce protocol fingerprinting on some ISPs.
-- Added bilingual Github issue templates in Farsi and English. It worth mentioning that all BPB projects are handled by one person, so please only report technical bugs and misconfigurations (not the app performance on your ISP) with all requested info, issue gets closed ASAP otherwise.
-- Updated **Reset settings** behaviour so that clean IPs and endpoints are preserved.
-- Updated the **Domain Fronting** + **Psiphon** config, it has much better performance now and tries to keep [@Patterniha](https://github.com/patterniha) template safe.
-- Updated the routing rules to block Iran firewall IPs by default.
-- Updated Xray-core to v26.11.9
-- Updated Tor to v4.9.16
-- Fixed the BPB quick settings tile bug #9
-
-![GitHub Downloads (all assets, specific tag)](https://img.shields.io/github/downloads/bia-pain-bache/BPB-VPN/v1.1.0/total)
-
-
 ## PattNG — `patterniha/PattNG`
 ### PattNG v2.4.1-P76 (Stable)
 - Tag: `2.4.1-P76`
@@ -249,6 +216,21 @@ BPB is now equipped with specific Cloudflare scanners for all protocol! The scan
 .
 
 ## Karing — `KaringX/karing`
+### v1.2.27.3001 (Pre-release)
+- Tag: `v1.2.27.3001`
+- تاریخ انتشار: 2026-11-27T10:29:29Z
+- صفحه رسمی: https://github.com/KaringX/karing/releases/tag/v1.2.27.3001
+- APKهای ARM64:
+  - [karing_1.2.27.3001_android_arm64-v8a.apk](https://github.com/KaringX/karing/releases/download/v1.2.27.3001/karing_1.2.27.3001_android_arm64-v8a.apk)
+
+**یادداشت توسعه‌دهنده:**
+1. iOS: TUN reconnection and reuse (refer to the 3000 release notes)
+2. Update Flutter dependencies
+3. Fix ECH parsing error #2149
+4. Fix various exceptions
+
+iOS/tvOS AppStore: (Search Keywords: karing vpn) https://apps.apple.com/us/app/karing/id6472431552
+
 ### v1.2.27.3000 (Pre-release)
 - Tag: `v1.2.27.3000`
 - تاریخ انتشار: 2026-11-25T06:50:00Z
@@ -308,22 +290,6 @@ iOS/tvOS AppStore: (Search Keywords: karing vpn) https://apps.apple.com/us/app/k
 3. Recompiled the core to address potential false-positive detections by certain antivirus software #2109 #2100
 4. Fixed an issue where editing WireGuard (WG) configurations could trigger an exception. #2101
 5. Windows: Added a new system environment variable, `ENABLE_IMPELLER`, to enable the Flutter Impeller engine (set `ENABLE_IMPELLER` to 1). Users experiencing a black screen on Windows may try adding this environment variable #2099 #2106
-
-iOS/tvOS AppStore: (Search Keywords: karing vpn) https://apps.apple.com/us/app/karing/id6472431552
-
-### v1.2.26.2931 (Stable)
-- Tag: `v1.2.26.2931`
-- تاریخ انتشار: 2026-11-13T12:03:34Z
-- صفحه رسمی: https://github.com/KaringX/karing/releases/tag/v1.2.26.2931
-- APKهای ARM64:
-  - [karing_1.2.26.2931_android_arm64-v8a.apk](https://github.com/KaringX/karing/releases/download/v1.2.26.2931/karing_1.2.26.2931_android_arm64-v8a.apk)
-
-**یادداشت توسعه‌دهنده:**
-1. Fixed an issue where performing an profile "auto-update" or "update all" profile could cause certain profile settings to be reset #2098
-2. Core: Improved resource usage for WireGuard
-3. Core: Improved certain log entries
-4. Fixed an issue where DNS rules appeared empty under "Network Check"
-5. Fixed an issue where domains for certain types of nodes were not being added to `dns_outbound_out`
 
 iOS/tvOS AppStore: (Search Keywords: karing vpn) https://apps.apple.com/us/app/karing/id6472431552
 
@@ -1018,5 +984,8 @@ menu UI improved
 - PattNG — `2.4.1-P76` — Stable — https://github.com/patterniha/PattNG/releases/tag/2.4.1-P76
 - PattNG — `2.4.1-P75` — Stable — https://github.com/patterniha/PattNG/releases/tag/2.4.1-P75
 - Karing — `v1.2.27.3000` — Pre-release — https://github.com/KaringX/karing/releases/tag/v1.2.27.3000
+- BPB VPN — `v1.3.2` — Stable — https://github.com/bia-pain-bache/BPB-VPN/releases/tag/v1.3.2
+- BPB VPN — `v1.3.1` — Pre-release — https://github.com/bia-pain-bache/BPB-VPN/releases/tag/v1.3.1
+- Karing — `v1.2.27.3001` — Pre-release — https://github.com/KaringX/karing/releases/tag/v1.2.27.3001
 
 برای ثبت آگاهی، پس از اعلام کاربر «متوجه شدم»، مورد مربوط باید از `state/pending_ack.json` حذف شود. تا پیش از آن، موارد pending در گزارش‌های بعدی تکرار می‌شوند.

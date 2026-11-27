@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-26T19:13:41.945140+00:00",
+  "checked_at_utc": "2026-11-27T19:08:04.864059+00:00",
   "device": {
     "android_version": 13,
     "architecture": "arm64-v8a",
@@ -12,6 +12,90 @@
       "installed_version": "1.2.1",
       "error": null,
       "releases": [
+        {
+          "tag": "v1.3.2",
+          "title": "BPB 1.3.2",
+          "published_at": "2026-11-27T13:56:07Z",
+          "prerelease": false,
+          "url": "https://github.com/bia-pain-bache/BPB-VPN/releases/tag/v1.3.2",
+          "notes": "# 💡 Bug fixes and improvements\r\n\r\n- Revised SSH connection failures.\r\n- Improved SSH error handling.\r\n- Improved SSH security by host key pinning and verification.\r\n- Handling SSH host key changes.\r\n- Added SSH key validatoin.\r\n- Updated Tor to 4.9.17\r\n- Updated Psiphon tunnel core to v2.0.43\r\n- Updated UI.\r\n- Refined My IP, Added ISP to connection metrics.\r\n- Enabled My IP while not connected (local ISP).\r\n- Changed LAN IP to **Share proxy** on homepage.\r\n- Scanner now fetches assets from core instead of bundling IP CIDRs.\r\n- The app not reports any failures and prevent user to connect VLESS if the worker scripts' update fails.\r\n- Fixed **Domain Fronting + Psiphon** bug; much faster connection now.\r\n\r\n**Full Changelog**: https://github.com/bia-pain-bache/BPB-VPN/compare/v1.3.0...v1.3.2\r\n\r\n![GitHub Downloads (all assets, specific tag)](https://img.shields.io/github/downloads/bia-pain-bache/BPB-VPN/v1.3.2/total)\r\n",
+          "arm64_apks": [
+            {
+              "name": "bpb-1.3.2-arm64-v8a.apk",
+              "url": "https://github.com/bia-pain-bache/BPB-VPN/releases/download/v1.3.2/bpb-1.3.2-arm64-v8a.apk",
+              "size": 55726255
+            }
+          ],
+          "assets": [
+            {
+              "name": "bpb-1.3.2-arm64-v8a.apk",
+              "url": "https://github.com/bia-pain-bache/BPB-VPN/releases/download/v1.3.2/bpb-1.3.2-arm64-v8a.apk",
+              "size": 55726255
+            },
+            {
+              "name": "bpb-1.3.2-armeabi-v7a.apk",
+              "url": "https://github.com/bia-pain-bache/BPB-VPN/releases/download/v1.3.2/bpb-1.3.2-armeabi-v7a.apk",
+              "size": 56283893
+            },
+            {
+              "name": "bpb-1.3.2-universal.apk",
+              "url": "https://github.com/bia-pain-bache/BPB-VPN/releases/download/v1.3.2/bpb-1.3.2-universal.apk",
+              "size": 141957002
+            },
+            {
+              "name": "bpb-1.3.2-x86_64.apk",
+              "url": "https://github.com/bia-pain-bache/BPB-VPN/releases/download/v1.3.2/bpb-1.3.2-x86_64.apk",
+              "size": 58932174
+            },
+            {
+              "name": "SHA256SUMS",
+              "url": "https://github.com/bia-pain-bache/BPB-VPN/releases/download/v1.3.2/SHA256SUMS",
+              "size": 379
+            }
+          ]
+        },
+        {
+          "tag": "v1.3.1",
+          "title": "BPB 1.3.1",
+          "published_at": "2026-11-26T21:04:26Z",
+          "prerelease": true,
+          "url": "https://github.com/bia-pain-bache/BPB-VPN/releases/tag/v1.3.1",
+          "notes": "# 💡 Bug fixes and improvements\r\n\r\n- Revised SSH connection failures.\r\n- Improved SSH error handling.\r\n- Improved SSH security by host key pinning and verification.\r\n- Handling SSH host key changes.\r\n- Added SSH key validatoin.\r\n- Updated Tor to 4.9.17\r\n- Updated Psiphon tunnel core to v2.0.43\r\n- Updated UI.\r\n- Refined My IP, Added ISP to connection metrics.\r\n- Enabled My IP while not connected (local ISP).\r\n- Changed LAN IP to **Share proxy** on homepage.\r\n- Fixed **Domain Fronting + Psiphon** bug; much faster connection now.\r\n\r\n**Full Changelog**: https://github.com/bia-pain-bache/BPB-VPN/compare/v1.3.0...v1.3.1\r\n\r\n![GitHub Downloads (all assets, specific tag)](https://img.shields.io/github/downloads/bia-pain-bache/BPB-VPN/v1.3.1/total)\r\n",
+          "arm64_apks": [
+            {
+              "name": "bpb-1.3.1-arm64-v8a.apk",
+              "url": "https://github.com/bia-pain-bache/BPB-VPN/releases/download/v1.3.1/bpb-1.3.1-arm64-v8a.apk",
+              "size": 55717770
+            }
+          ],
+          "assets": [
+            {
+              "name": "bpb-1.3.1-arm64-v8a.apk",
+              "url": "https://github.com/bia-pain-bache/BPB-VPN/releases/download/v1.3.1/bpb-1.3.1-arm64-v8a.apk",
+              "size": 55717770
+            },
+            {
+              "name": "bpb-1.3.1-armeabi-v7a.apk",
+              "url": "https://github.com/bia-pain-bache/BPB-VPN/releases/download/v1.3.1/bpb-1.3.1-armeabi-v7a.apk",
+              "size": 56269620
+            },
+            {
+              "name": "bpb-1.3.1-universal.apk",
+              "url": "https://github.com/bia-pain-bache/BPB-VPN/releases/download/v1.3.1/bpb-1.3.1-universal.apk",
+              "size": 141921741
+            },
+            {
+              "name": "bpb-1.3.1-x86_64.apk",
+              "url": "https://github.com/bia-pain-bache/BPB-VPN/releases/download/v1.3.1/bpb-1.3.1-x86_64.apk",
+              "size": 58925549
+            },
+            {
+              "name": "SHA256SUMS",
+              "url": "https://github.com/bia-pain-bache/BPB-VPN/releases/download/v1.3.1/SHA256SUMS",
+              "size": 379
+            }
+          ]
+        },
         {
           "tag": "v1.3.0",
           "title": "BPB 1.3.0",
@@ -2791,6 +2875,73 @@
       "error": null,
       "releases": [
         {
+          "tag": "v1.2.27.3001",
+          "title": "v1.2.27.3001",
+          "published_at": "2026-11-27T10:29:29Z",
+          "prerelease": true,
+          "url": "https://github.com/KaringX/karing/releases/tag/v1.2.27.3001",
+          "notes": "1. iOS: TUN reconnection and reuse (refer to the 3000 release notes)\r\n2. Update Flutter dependencies\r\n3. Fix ECH parsing error #2149\r\n4. Fix various exceptions\r\n\r\niOS/tvOS AppStore: (Search Keywords: karing vpn) https://apps.apple.com/us/app/karing/id6472431552",
+          "arm64_apks": [
+            {
+              "name": "karing_1.2.27.3001_android_arm64-v8a.apk",
+              "url": "https://github.com/KaringX/karing/releases/download/v1.2.27.3001/karing_1.2.27.3001_android_arm64-v8a.apk",
+              "size": 61272380
+            }
+          ],
+          "assets": [
+            {
+              "name": "karing_1.2.27.3001_android_arm.apk",
+              "url": "https://github.com/KaringX/karing/releases/download/v1.2.27.3001/karing_1.2.27.3001_android_arm.apk",
+              "size": 107466764
+            },
+            {
+              "name": "karing_1.2.27.3001_android_arm64-v8a.apk",
+              "url": "https://github.com/KaringX/karing/releases/download/v1.2.27.3001/karing_1.2.27.3001_android_arm64-v8a.apk",
+              "size": 61272380
+            },
+            {
+              "name": "karing_1.2.27.3001_android_armeabi-v7a.apk",
+              "url": "https://github.com/KaringX/karing/releases/download/v1.2.27.3001/karing_1.2.27.3001_android_armeabi-v7a.apk",
+              "size": 61718006
+            },
+            {
+              "name": "karing_1.2.27.3001_linux_amd64.deb",
+              "url": "https://github.com/KaringX/karing/releases/download/v1.2.27.3001/karing_1.2.27.3001_linux_amd64.deb",
+              "size": 50837454
+            },
+            {
+              "name": "karing_1.2.27.3001_macos_universal.dmg",
+              "url": "https://github.com/KaringX/karing/releases/download/v1.2.27.3001/karing_1.2.27.3001_macos_universal.dmg",
+              "size": 118420771
+            },
+            {
+              "name": "karing_1.2.27.3001_macos_universal.pkg",
+              "url": "https://github.com/KaringX/karing/releases/download/v1.2.27.3001/karing_1.2.27.3001_macos_universal.pkg",
+              "size": 119202614
+            },
+            {
+              "name": "karing_1.2.27.3001_windows_x64.exe",
+              "url": "https://github.com/KaringX/karing/releases/download/v1.2.27.3001/karing_1.2.27.3001_windows_x64.exe",
+              "size": 52312696
+            },
+            {
+              "name": "karing_1.2.27.3001_windows_x64.zip",
+              "url": "https://github.com/KaringX/karing/releases/download/v1.2.27.3001/karing_1.2.27.3001_windows_x64.zip",
+              "size": 75419134
+            },
+            {
+              "name": "karing_1.2.27.3001_linux_amd64.rpm",
+              "url": "https://github.com/KaringX/karing/releases/download/v1.2.27.3001/karing_1.2.27.3001_linux_amd64.rpm",
+              "size": 62750136
+            },
+            {
+              "name": "karing_1.2.27.3001_linux_amd64.AppImage",
+              "url": "https://github.com/KaringX/karing/releases/download/v1.2.27.3001/karing_1.2.27.3001_linux_amd64.AppImage",
+              "size": 73542136
+            }
+          ]
+        },
+        {
           "tag": "v1.2.27.3000",
           "title": "v1.2.27.3000",
           "published_at": "2026-11-25T06:50:00Z",
@@ -3983,73 +4134,6 @@
               "name": "karing_1.2.26.2916_macos_universal.dmg",
               "url": "https://github.com/KaringX/karing/releases/download/v1.2.26.2916/karing_1.2.26.2916_macos_universal.dmg",
               "size": 119047691
-            }
-          ]
-        },
-        {
-          "tag": "v1.2.26.2915",
-          "title": "v1.2.26.2915",
-          "published_at": "2026-10-27T03:22:33Z",
-          "prerelease": true,
-          "url": "https://github.com/KaringX/karing/releases/tag/v1.2.26.2915",
-          "notes": "1. Fixed an issue where error pop-ups (e.g., \"create outbound failed\") would appear for certain nodes during connection.\r\n2. DNS: Fixed an issue with incorrect private DNS tags.\r\n3. Adjusted the priority of static IP resolution rules to take precedence over node-specific rules.\r\n4. Reverted the `tray_manager` version.\r\n5. pc: Fixed an issue where OpenVPN was not being built.\r\n\r\niOS/tvOS AppStore: (Search Keywords: karing vpn) https://apps.apple.com/us/app/karing/id6472431552",
-          "arm64_apks": [
-            {
-              "name": "karing_1.2.26.2915_android_arm64-v8a.apk",
-              "url": "https://github.com/KaringX/karing/releases/download/v1.2.26.2915/karing_1.2.26.2915_android_arm64-v8a.apk",
-              "size": 59861242
-            }
-          ],
-          "assets": [
-            {
-              "name": "karing_1.2.26.2915_windows_x64.exe",
-              "url": "https://github.com/KaringX/karing/releases/download/v1.2.26.2915/karing_1.2.26.2915_windows_x64.exe",
-              "size": 51752890
-            },
-            {
-              "name": "karing_1.2.26.2915_windows_x64.zip",
-              "url": "https://github.com/KaringX/karing/releases/download/v1.2.26.2915/karing_1.2.26.2915_windows_x64.zip",
-              "size": 74557841
-            },
-            {
-              "name": "karing_1.2.26.2915_android_arm.apk",
-              "url": "https://github.com/KaringX/karing/releases/download/v1.2.26.2915/karing_1.2.26.2915_android_arm.apk",
-              "size": 104545632
-            },
-            {
-              "name": "karing_1.2.26.2915_android_arm64-v8a.apk",
-              "url": "https://github.com/KaringX/karing/releases/download/v1.2.26.2915/karing_1.2.26.2915_android_arm64-v8a.apk",
-              "size": 59861242
-            },
-            {
-              "name": "karing_1.2.26.2915_android_armeabi-v7a.apk",
-              "url": "https://github.com/KaringX/karing/releases/download/v1.2.26.2915/karing_1.2.26.2915_android_armeabi-v7a.apk",
-              "size": 60177194
-            },
-            {
-              "name": "karing_1.2.26.2915_macos_universal.pkg",
-              "url": "https://github.com/KaringX/karing/releases/download/v1.2.26.2915/karing_1.2.26.2915_macos_universal.pkg",
-              "size": 119426715
-            },
-            {
-              "name": "karing_1.2.26.2915_linux_amd64.deb",
-              "url": "https://github.com/KaringX/karing/releases/download/v1.2.26.2915/karing_1.2.26.2915_linux_amd64.deb",
-              "size": 50135342
-            },
-            {
-              "name": "karing_1.2.26.2915_macos_universal.dmg",
-              "url": "https://github.com/KaringX/karing/releases/download/v1.2.26.2915/karing_1.2.26.2915_macos_universal.dmg",
-              "size": 118967037
-            },
-            {
-              "name": "karing_1.2.26.2915_linux_amd64.rpm",
-              "url": "https://github.com/KaringX/karing/releases/download/v1.2.26.2915/karing_1.2.26.2915_linux_amd64.rpm",
-              "size": 61815778
-            },
-            {
-              "name": "karing_1.2.26.2915_linux_amd64.AppImage",
-              "url": "https://github.com/KaringX/karing/releases/download/v1.2.26.2915/karing_1.2.26.2915_linux_amd64.AppImage",
-              "size": 72833528
             }
           ]
         }
@@ -10213,6 +10297,30 @@
       "tag": "v1.2.27.3000",
       "url": "https://github.com/KaringX/karing/releases/tag/v1.2.27.3000",
       "first_seen": "2026-11-25T19:31:04.945858+00:00",
+      "prerelease": true
+    },
+    {
+      "app": "BPB VPN",
+      "repo": "bia-pain-bache/BPB-VPN",
+      "tag": "v1.3.2",
+      "url": "https://github.com/bia-pain-bache/BPB-VPN/releases/tag/v1.3.2",
+      "first_seen": "2026-11-27T19:07:59.966650+00:00",
+      "prerelease": false
+    },
+    {
+      "app": "BPB VPN",
+      "repo": "bia-pain-bache/BPB-VPN",
+      "tag": "v1.3.1",
+      "url": "https://github.com/bia-pain-bache/BPB-VPN/releases/tag/v1.3.1",
+      "first_seen": "2026-11-27T19:07:59.966670+00:00",
+      "prerelease": true
+    },
+    {
+      "app": "Karing",
+      "repo": "KaringX/karing",
+      "tag": "v1.2.27.3001",
+      "url": "https://github.com/KaringX/karing/releases/tag/v1.2.27.3001",
+      "first_seen": "2026-11-27T19:08:01.546439+00:00",
       "prerelease": true
     }
   ]

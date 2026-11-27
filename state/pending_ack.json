@@ -462,5 +462,29 @@
     "url": "https://github.com/KaringX/karing/releases/tag/v1.2.27.3000",
     "first_seen": "2026-11-25T19:31:04.945858+00:00",
     "prerelease": true
+  },
+  "bia-pain-bache/BPB-VPN@v1.3.2": {
+    "app": "BPB VPN",
+    "repo": "bia-pain-bache/BPB-VPN",
+    "tag": "v1.3.2",
+    "url": "https://github.com/bia-pain-bache/BPB-VPN/releases/tag/v1.3.2",
+    "first_seen": "2026-11-27T19:07:59.966650+00:00",
+    "prerelease": false
+  },
+  "bia-pain-bache/BPB-VPN@v1.3.1": {
+    "app": "BPB VPN",
+    "repo": "bia-pain-bache/BPB-VPN",
+    "tag": "v1.3.1",
+    "url": "https://github.com/bia-pain-bache/BPB-VPN/releases/tag/v1.3.1",
+    "first_seen": "2026-11-27T19:07:59.966670+00:00",
+    "prerelease": true
+  },
+  "KaringX/karing@v1.2.27.3001": {
+    "app": "Karing",
+    "repo": "KaringX/karing",
+    "tag": "v1.2.27.3001",
+    "url": "https://github.com/KaringX/karing/releases/tag/v1.2.27.3001",
+    "first_seen": "2026-11-27T19:08:01.546439+00:00",
+    "prerelease": true
   }
 }
